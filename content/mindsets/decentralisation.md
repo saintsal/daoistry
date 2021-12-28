@@ -1,54 +1,40 @@
 ---
-title: Understanding decentralisation
+title: The Three Types of Decentralisation
 ---
 
-One of the big reasons DAOs are leading somewhere new is decentralisation.  But this term is often misunderstood.  
+> The opposite of hierarchy isn't flatness, it's autonomy.
 
-Here we'll draw on [Vitalik Buterin's essay](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) (he's the founder of Ethereum) , where he clears things up.
+To understand decentralisation, you need to separate the [types of decentralisation](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) which Vitalik Buterin (founder of Ethereum)  distinguishes as political, architectural and logical.
 
 
-Vitalik distinguishes 3 different types of decentralisation:
+**Architectural Decentralisation** is about creating redundancies make infrastructure resilient. There is no central point in the architecture that the others depend on.  Blockchain technology is architecturally decentralised, in that blockchain users are not reliant on any specific group of miners.
 
-**Political** - who makes the decisions that affect others autonomy?
+**Logical Decentralisation** is about how the system acts.  There is no centralised information that the other parts rely on. Instead, data is shared in a swarm, and different parts of the system update each other to arrive at consistency. Logically decentralised systems acan be divided any way and both parts will continue to function independently.
 
-Corporations are politically centralised. The CEO calls the shots.  Departments also centralise various decisions that the rest of the company must obey.
+**Political Decentralisation** is when no single group can enforce their decisions on others. It increases autonomy and removes constraints.  It allows for people to control their own environment and do their best work.
 
-Chapter-based organisations are decentralised. The central organisation may give support and resources, but each chapter calls its own shots. 
+Political centralisation means people have to work according to the rules others set. This takes different forms: departments, policy makers,executive leadership setting goals for others.
 
-At the extreme, cell-based organisations duplicate themselves without any dependence or communication on a central authority. MolochDAO is an example.
+Political decentralisation is when people set their own rules. This can also take different forms: chapter-based organisations, democratic cells, independent projects with common support such as startup accelerators.
 
-**Architectural** — how many physical computers is a system made up of? How resilient is the system to those computers breaking down?
+## The 3 forms of decentralisation are connected 
 
-The Internet's base layer (TCP/IP) is architecturally decentralised. Any number of routers can go down, but the Internet stays connected to itself.
+While the three are connected, political decentralisation is particularly important to DAOs since its the lynchpin for the others.
 
-Facebook and Twitter are architecturally decentralised. When their servers go down, nobody can connect.
+Political decentralisation differs from architectural decentralisation which is about resiliency and availability of infrastructure, and from logical decentralisation which is about shared state or meaning.
 
-**Logical** — is the system a swarm that can be divided in any way and have both separate parts still function? Does it create any shared resources that all participants depend on?
+But they depend on each other.
 
-Bittorrent swarms are logically decentralised.  You could cut off all of Africa's and all of Asia's bittorrents, and both would continue on by themselves.
+If you have logical centralisation, where certain information or resources are kept in one place (such as treasury guilds and departmental guilds) then you also end up with political centralisation too, because those guilds tend to make policy decisions that affect everyone else. (That's when people have to invest in politics and meetings rather than real work, and when non-corporate people say your DAO feels corporate.)
 
-Languages are logically decentralized. The English spoken between Alice and Bob and the English spoken between Charlie and David do not need to agree at all. There is no centralized infrastructure required for a language to exist, and the rules of English grammar are not created or controlled by any one single person.
+If you have any kind of political centralisation, for example creating functional departments, then that forces everyone back to depending on one way of doing something (logical centralisation). 
 
-----
+It also leads to storing resources in one place (architectural centralisation). For example, deciding that everyone in the DAO should use a certain tool (Discord, Notion, Sobol) turns the adminsistrators of those systems into political centers -- they now decide who gets access and how much.
 
-Here's the thing. These are all related.
+## How to politically decentralise
+If there are people in your DAO who don't feel they can plug in, or feel their work and progress is constrained by others in the DAO, then your DAO probably suffers from political centralisation.
 
-If you have architectural centralisation, even if it's just for something like a chat server (ahem, Discord) then only certain people can manage that chat server.  That's now political centralisation too.
+> Does anyone make decisions that affect others autonomy?
 
-If you have logical centralisation, where certain information or resources are kept in one place (ahem, treasury guilds) then you also end up with political centralisation.
-
-Political centralisation means other people have to work according to the rules others set.  It might not look like a standard company hierarchy, because there's no org chart, but it's still a shadow hierarchy.
-
-If you have any kind of political centralisation, for example creating departments, then that forces everyone back to depending on resources (logical centralisation) and that means storing them all in one place (architectural centralisation.)
-
-So any form of centralisation leads to more centralisation, which is the opposite of what DAOs stand for!
-
----
-
-The decentralised mindset asks:
-
-- Are we hoarding or centralising any resources here?  Can we instead distribute them?  Instead of Google Drive, can we share data on IPFS or Filecoin? Instead of functional departments, can we distribute the needed people directly onto small inter-disciplinary project squads?
-
-- Are we forcing anyone to behave based on policy we're setting?  Can we instead let them work their way, and provide them support and access?
-
-- Are creating any centralised infrastructure, like bots or Notion accounts?  Instead, can we assist teams to create their own?
+- Instead of forcing others to behave based on a set policy, let them work their way
+- Instead of creating and enforcing policy, achieve the same aims through support. 

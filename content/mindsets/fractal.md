@@ -17,19 +17,20 @@ They all have something in common: they rely on individuals to make the changes 
 
 **Meaning the next step to decentralisation happens with you.**
 
-If you're trying to make an organisation decentralised by starting at the top, you're depending on hierarchy.
 
-If you're trying to do anything organisation-wide, you're depending on centralisations.
+If you're trying to make an organisation decentralised by starting at the top, you're depending on hierarchy. 
 
-Decentralisation starts with individuals and small teams, then it spreads.
+Decentralisation is about autonomy and mutual dependence.  It starts with individuals and small teams, then it spreads. 
 
-It's fractal.  A decentralised organisation will take shape based on what the smaller parts do.
+If you're trying to do anything organisation-wide, you're also creating centralisation. 
+
+Decentralisation is fractal.  A decentralised organisation will take shape based on what the smaller parts do. The parts form the whole, the whole doesn't control the parts.
 
 So the way forward for you is simple: start acting like a decentralised fractal, and help those around you too.
 
-It's usually just a matter of changing the right work habits, and having a little support.
+It's usually just a matter of changing the right work habits.
 
-That's what this site is for.  Pick a few habits that make sense to you, and share the those habits with the people you work with, and start.
+> That's what this site is for.  Pick a few habits that make sense to you, and share the those habits with the people you work with, and start.
 
 
 
