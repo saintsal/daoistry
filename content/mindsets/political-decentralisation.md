@@ -1,5 +1,5 @@
 ---
-title: Architectural Decentralisation
+title: Political Decentralisation
 ---
 
 > The opposite of heirarchy isn't flatness, it's autonomy.
