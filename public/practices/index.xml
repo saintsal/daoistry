@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practices on DAOistry</title>
+    <link>https://daoistry.com/practices/</link>
+    <description>Recent content in Practices on DAOistry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jul 2018 09:59:00 -0400</lastBuildDate><atom:link href="https://daoistry.com/practices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Async the updates</title>
+      <link>https://daoistry.com/practices/async-updates/</link>
+      <pubDate>Thu, 19 Jul 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/practices/async-updates/</guid>
+      <description>Async the updates New people join a DAO, and have no idea where to go. Guilds can&amp;rsquo;t keep all their members up to speed, let alone other guilds.
+Why? Because all the important info is shared in in ephemerical channels: voice chats, group calls, dms and endlessly scrolling channels. No way to keep up.
+The fix isn&amp;rsquo;t onboarding or more meetings, its when the core team members of projects communicate heir progress to each other in an async feed.</description>
+    </item>
+    
+    <item>
+      <title>Accordance Dialogues</title>
+      <link>https://daoistry.com/practices/accordance-dialogues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/accordance-dialogues/</guid>
+      <description>Accordance Dialogues are used to develop proposals that benefit from:
+ group accordance, consensus, or near-consensus group attention to reveal unforeseen issues and offer improvements  Communication style Accordance Dialogues are designed to work in async communication (on a forum) or in a group call (sync). For big issues requiring consideration, they&amp;rsquo;re usually used async first, and fall back to group calls if needed. They&amp;rsquo;re also useful for group calls, when a facilitator wants to move the group towards tangible action.</description>
+    </item>
+    
+    <item>
+      <title>Chat is not a feed.</title>
+      <link>https://daoistry.com/practices/chat-is-social-only/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/chat-is-social-only/</guid>
+      <description>The worst thing in the universe is having to follow yet another chatroom. DAO chatrrooms are usually really busy, but when you look at who&amp;rsquo;s getting the real work done, they&amp;rsquo;re not on chat. They&amp;rsquo;ve say so &amp;ldquo;no&amp;rdquo; to FOMO.
+Chat is strictly for social, fun and random stuff only. So its optional and you can tune out without worry.
+Because if it’s important, it’s in an async update.</description>
+    </item>
+    
+    <item>
+      <title>Meetings are for doing, not updating</title>
+      <link>https://daoistry.com/practices/meetings-are-for-doing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/meetings-are-for-doing/</guid>
+      <description>If you use meetings to update each other, you exclude people, isolate your team from the DAO, and waste everyone&amp;rsquo;s time.
+Updates are much better made on a dedicated, async feed, so you can update in real-time, and people can catch up on their own schedule.
+When you get together, it should be to produce a result that is better done with real-time collaboration.
+That could be agreeing on priorities (such as a 20-minute agile standup call) or working on a boundary object that gets everyone on the same page.</description>
+    </item>
+    
+    <item>
+      <title>No more catch-all meetings</title>
+      <link>https://daoistry.com/practices/no-catchall-meetings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/no-catchall-meetings/</guid>
+      <description>&amp;ldquo;That&amp;rsquo;s a good idea &amp;ndash; why don&amp;rsquo;t you present it on the Thursday community call?&amp;rdquo;
+&amp;ldquo;I need to talk to Ahmed to get this done. I&amp;rsquo;ll just grab him after Monday&amp;rsquo;s stand-up call.&amp;rdquo;
+&amp;ldquo;That&amp;rsquo;s bothering you. Let&amp;rsquo;s talk after tomorrow&amp;rsquo;s team meeting.&amp;rdquo;
+ Seems okay, except for 2 big problems:
+ It causes delays to get things done, especially quick and important stuff. It prevents emotional issues from being talked about open.</description>
+    </item>
+    
+    <item>
+      <title>PPP Pulse - Plans, Progress, Problems</title>
+      <link>https://daoistry.com/practices/plans-progress-problems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/plans-progress-problems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quick calls only</title>
+      <link>https://daoistry.com/practices/quick-calls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/quick-calls/</guid>
+      <description>We all know calls are useful, but all these scheduled group calls are horrible. So start with the obvious answer!
+Quick calls only - one-on-one and unscheduled.
+Calls should be used sparingly, since async is more thoughtful and inclusive, but sometimes a voice conversation is the right way to go.
+Things like brainstorms, quick clarifications, or discussions that involve a lot of Q&amp;amp;A back-and-forth - and anything that gets a little emotional – it’s time for a call.</description>
+    </item>
+    
+    <item>
+      <title>Share your personal priorities</title>
+      <link>https://daoistry.com/practices/personal-priorities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/personal-priorities/</guid>
+      <description>Every few weeks, write a quick note to update everyone with your top 3 priorities.
+This way, everyone knows what’s going on and and if they should connect with you about something (or not). It also creates a sense of peer accountability and peer support.
+This one act is a game-changer for self-organising, because it let&amp;rsquo;s anyone who can help you find you and connect.
+Tips  Try to describe your priorities as outcome states (The website is drafted so the team can review it( and not just a task ( write website ).</description>
+    </item>
+    
+    <item>
+      <title>Small squads self-direct better</title>
+      <link>https://daoistry.com/practices/squads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/squads/</guid>
+      <description>Squads form around projects (with one-time end results) or factories (to produce a similar output repeatedly) Squads are a maximum of 4 people to stay agile.
+Think of squads like a motorboat towing water-skiiers.
+The people on the boat need to make quick decisions. They should be committed, and experienced enough to make expert decisions. They drive.
+Everyone else is a water skiier. They follow along and get pulled in when needed.</description>
+    </item>
+    
+    <item>
+      <title>Squad Independence</title>
+      <link>https://daoistry.com/practices/squad-independence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/squad-independence/</guid>
+      <description>Squads take responsibility for their results and direction, and report that to everyone else. They consult with the broader collective in order to set goals (Their Why) but have both full autonomy and responsibility for figuring out how to achieve them (Their How).
+Squads choose their own tools, and set their own practices. They do not have practices imposed on them by corporate higher-ups.
+Tips A good way for squads to do this is using OKRs (Objectives Key Results) but any form objectively observable/measurable goal works.</description>
+    </item>
+    
+    <item>
+      <title>Squad priorities meeting</title>
+      <link>https://daoistry.com/practices/squad-priorities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/squad-priorities/</guid>
+      <description>A great way to get rid of almost all group meetings is the squad priorities meeting
+This is a structured meeting that happens at the same time each week. No updates or “while I’ve got you” stuff, since those happened already on in async.
+In a priorties meeting, there&amp;rsquo;s only one thing to do: agree on the team&amp;rsquo;s priorities for the coming week.
+The team works from a single kanban board, where each card is an outcome (not a task).</description>
+    </item>
+    
+  </channel>
+</rss>

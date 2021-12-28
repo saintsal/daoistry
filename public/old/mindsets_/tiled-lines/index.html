@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tiled Lines | DAOistry</title>
+
+    <meta charset="utf-8">
+    
+    <meta name="description" content="This demo is one of the most simplistic yet beautiful pieces of generative art you can make. It&#39;s kinda famous in its own right, appearing on books and on all sorts of devices. The art of DAO">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/syntax-highlighting.css" rel="stylesheet">
+  </head>
+  <body class="tutorial">
+
+    <header>
+  <div class="wrapper">
+    <a class="logo" href="/">DAOistry</a>
+    <div class="links">
+      <a class="practices" href="/practices">anti-patterns</a> • <a class="practices" href="/practices">practices</a> • <a class="mindsets" href="/mindsets">mindsets</a> 
+    </div>
+  </div>
+</header>
+
+
+    <div class="tutorial-post">
+      
+      <div class="tutorial-sidebar">
+
+        <div id="tutorial-code" class="tutorial-code"></div>
+        
+        <div class="tutorial-send-code">
+          <span>➵</span>
+        </div>
+
+        <iframe class="tutorial-frame" src="/utils/injectable-iframe.html" sandbox="allow-same-origin allow-scripts"></iframe>
+
+      </div>
+
+      <div class="tutorial-content">
+        <h1 id="tiled-lines">Tiled Lines</h1>
+<p>I want to get going with some of the earliest but simplest programming art out there. I&rsquo;m referring to the <a href="https://www.youtube.com/watch?v=m9joBLOZVEo">10 PRINT</a> artwork initially coded for the <a href="https://en.wikipedia.org/wiki/Commodore_64">Commodore 64</a>. This work has been featured all over the place, and gives a really stunning effect for something so simple.</p>
+<p>We&rsquo;re going to do this with the JavaScript canvas. No extra APIs today. The only HTML we have on the page is a <code>&lt;canvas&gt;</code> element at 320×320 pixels.</p>
+<p>Let&rsquo;s kick things off with some initial setup. You&rsquo;re not going to see anything render here, because these are the primary lines to setting up the canvas and context which we use to draw. We will also set the size of the canvas and adjust it based on the user&rsquo;s device pixel ratio, or pixel density. This ensures that the final result is crisp on all monitors.</p>
+<!-- raw HTML omitted -->
+<p>This will set us up with a canvas with a square size ~ and provide us with the ever useful &ldquo;context&rdquo; of which we use to draw.</p>
+<p>Now, let&rsquo;s create a draw function, which we will be using to draw. It&rsquo;s going to accept an x, y, width and height. Let&rsquo;s also call that draw function, even though it&rsquo;s empty.</p>
+<!-- raw HTML omitted -->
+<p>The way that this is built out at the moment, we will use the <code>draw</code> function to draw out something from the x and y coordinates of <code>(0, 0)</code>, to the full width and height of the canvas.</p>
+<p>So how about we draw something. Let&rsquo;s start with a simple line.</p>
+<!-- raw HTML omitted -->
+<p>And there we have it: a diagonal line, going from our top left to the bottom right of the canvas space. But at the moment, that&rsquo;s static.</p>
+<p>To make it &ldquo;generative&rdquo; we&rsquo;ll need to change it so that 50% of the time, it will go from the top right to the bottom left instead, taking the &ldquo;art&rdquo; out of our hands and into the computers.</p>
+<p>To use that, we will add a random chance boolean and an if statement.</p>
+<!-- raw HTML omitted -->
+<p><code>Math.random()</code> is returning a number between 0 and 1, which gives us the 50% chance of going one way or the other. Now, if you hit the &ldquo;send it&rdquo; button on the left over and over, you will see the line changing direction randomly.</p>
+<p>Now, the final step is to divide and conquer. One line is cool, but do you know what&rsquo;s better? Hundreds of lines.</p>
+<p>We will add in a variable to be our &ldquo;step&rdquo;.</p>
+<!-- raw HTML omitted -->
+<p>This variable is what we will use to step through our image. In this case, our width is 320, and our step is 80, so we know it fits in 4 times.</p>
+<!-- raw HTML omitted -->
+<p>Kapow, how about that. So now, we can reduce the step to say:</p>
+<!-- raw HTML omitted -->
+<p>And we have a much more complex, beautiful piece. In fact, I&rsquo;d almost call that done!</p>
+<p>Feel free to play around with the variables in the code to the top left&hellip; really, <code>step</code> is the one you should be most interested in. But you can also play around with <code>draw</code> and create something new by drawing something a little more complex than just diagonal lines.</p>
+
+        <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+  <input type="hidden" name="data" value='{}'>
+  ↪ You can edit the code above, and have it run by pressing the arrow between the code and demo, but if you like, you can also play around a little with this code <input type="submit" id="codepen-prefil" value="on CodePen">
+</form>
+      </div>
+    </div>
+    
+    <footer>
+	<div class="wrapper">
+		<div class="links">
+			<a href="/credits/" target="_blank" rel="noopener noreferrer">Credits</a>
+		</div>
+	</div>
+</footer>
+
+
+    <script src="/js/tmd.js"></script>
+    <script src="/js/codepen-prefil.js"></script>
+    <script src="/js/favicon.js"></script>
+    <script src="/js/libs/monaco-editor/min/vs/loader.js"></script>
+
+    <script>
+
+        require.config({ paths: { 'vs': '/js/libs/monaco-editor/min/vs' }});
+        var tmd, editor;
+
+        require(['vs/editor/editor.main'], function() {
+          editor = monaco.editor.create(document.querySelector('#tutorial-code'), {
+            value: [
+              '// These tutorials are using tutorial markdown (https://github.com/tholman/tutorial-markdown)',
+              '// start scrolling, and we\'ll',
+              '// write the code.'
+            ].join('\n'),
+            lineNumbersMinChars: 2,
+            scrollBeyondLastLine: false,
+            language: 'javascript',
+            fontSize: 10,
+            minimap: { enabled: false },
+            hover: false,
+            occurrencesHighlight: false
+          })
+
+          editor.getModel().updateOptions({ tabSize: 2 })
+
+          tmd = new TutorialMarkdown({
+            editor: {
+              editor: editor,
+               api: monaco
+             },
+             iframe: document.querySelector('.tutorial-frame'),
+             markdownSelector: {
+               blockSelector: '.tmd-trigger', 
+               codeSelector: '.lntd:nth-child(2) .language-js' 
+             }
+          })
+        })
+
+        document.querySelector('.tutorial-send-code').addEventListener('click', function() {
+          tmd.sendCode()
+        })
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121043299-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121043299-1');
+</script>
+  </body>
+</html>

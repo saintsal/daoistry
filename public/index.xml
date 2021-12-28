@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DAOistry</title>
+    <link>https://daoistry.com/</link>
+    <description>Recent content on DAOistry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 May 2021 10:24:00 -0400</lastBuildDate><atom:link href="https://daoistry.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hours of Dark</title>
+      <link>https://daoistry.com/old/mindsets_/hours-of-dark/</link>
+      <pubDate>Thu, 13 May 2021 10:24:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/hours-of-dark/</guid>
+      <description>Hours of Dark In this tutorial, we are going to recreate the look of a print by Accept &amp;amp; Proceed called Hours of Dark 2011. All the strokes in the grid represent a day, their width proportional to the hours of darkness and their orientation defined by the angle of the sunset.
+Here is our initial setup with a single &amp;lt;canvas&amp;gt; element, using window.devicePixelRatio to scale it on retina screens.</description>
+    </item>
+    
+    <item>
+      <title>Math.random(3) - Chess</title>
+      <link>https://daoistry.com/old/episodes/random-chess/</link>
+      <pubDate>Mon, 15 Feb 2021 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/random-chess/</guid>
+      <description>Chess! Tim and Ruth explore the idea of learning something new, and the difficulties you have when you have to start from scratch. Looking at the steps you have to go through to become good at something, including figuring out where you&amp;rsquo;re bad at it, and finding out where to improve.</description>
+    </item>
+    
+    <item>
+      <title>Matt DesLauriers</title>
+      <link>https://daoistry.com/old/episodes/matt-deslauriers/</link>
+      <pubDate>Sat, 21 Nov 2020 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/matt-deslauriers/</guid>
+      <description>Matt DesLauriers Ruth and Tim speak to artist &amp;amp; creative coder Matt Delauries about his process, goals when creating, and all things generative art.!
+For those that don&amp;rsquo;t know Matt, his open-source code around generative art is a great place to start, as well as his many many conference talks and workshops, and of course all the beautiful beautiful art.</description>
+    </item>
+    
+    <item>
+      <title>Sharell Bryant</title>
+      <link>https://daoistry.com/old/episodes/sharell-bryant/</link>
+      <pubDate>Thu, 06 Aug 2020 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/sharell-bryant/</guid>
+      <description>Sharell Bryant! Ruth and Tim sit down with the very talented Sharell Bryant! We talk about Sharell&amp;rsquo;s stunning audio explorations on the web. As well as keeping motivated and on track with side projects, different ways to learn and grow, which tools you can utilize to help along the way!
+For those that don&amp;rsquo;t know her, Sharell Bryant is a programmer and singer-songwriter in NYC interested in exploring the intersection of art, technology, and education.</description>
+    </item>
+    
+    <item>
+      <title>Algorithms</title>
+      <link>https://daoistry.com/old/episodes/algorithms/</link>
+      <pubDate>Sat, 21 Mar 2020 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/algorithms/</guid>
+      <description>Algorithms Aside from being the word that everyone says when they don&amp;rsquo;t want to explain what the code is doing, algorithms are one of the backbones of generative art. Join us, as we dissect some of the most common algorithms in generative art.
+Full transcription incoming!</description>
+    </item>
+    
+    <item>
+      <title>Math.random(2) - Creativity</title>
+      <link>https://daoistry.com/old/episodes/creativity/</link>
+      <pubDate>Wed, 05 Feb 2020 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/creativity/</guid>
+      <description>Creativity Another random chat where Ruth and Tim find themselves deeply off our intended topic, but keep exploring and surfacing ideas and thoughts we have about Creativity.
+Full transcription incoming!</description>
+    </item>
+    
+    <item>
+      <title>Jake Albaugh</title>
+      <link>https://daoistry.com/old/episodes/jake-albaugh/</link>
+      <pubDate>Sun, 22 Dec 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/jake-albaugh/</guid>
+      <description>Jake Albaugh! Jake&amp;rsquo;s projects expand across a broad range of topics with the web in common. Its a blast talking to him, and going over some of the weird and wonderful creations he&amp;rsquo;s made.
+Full transcription incoming!</description>
+    </item>
+    
+    <item>
+      <title>Tooling</title>
+      <link>https://daoistry.com/old/episodes/tooling/</link>
+      <pubDate>Wed, 20 Nov 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/tooling/</guid>
+      <description>Lets talk about random Tim and Ruth have a blast talking about the different tools and techniques in generative art, including some of the history behind them.
+Full transcription incoming!</description>
+    </item>
+    
+    <item>
+      <title>Math.random(1)</title>
+      <link>https://daoistry.com/old/episodes/random/</link>
+      <pubDate>Thu, 10 Oct 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/random/</guid>
+      <description>Lets talk about random Random numbers are everywhere in generative art, and everywhere in coding. There&amp;rsquo;s so many ways to approach this topic, so buckle up and have a listen to our take.
+Full transcription incoming!</description>
+    </item>
+    
+    <item>
+      <title>Charlie Gleason</title>
+      <link>https://daoistry.com/old/episodes/charlie-gleason/</link>
+      <pubDate>Sun, 29 Sep 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/charlie-gleason/</guid>
+      <description>Amazing guest, Charlie Gleason! Our first guest! The talented Charlie Gleason joins us and chats about his journey into creative coding and the things he has built. All the way through Actionscript, sound engineering, design and of course there&amp;rsquo;s some generative art in there!
+Be sure to check out Charlie&amp;rsquo;s Website, and follow him on Twitter
+&amp;ndash;
+Ruth: Charlie How are you?
+Charlie: I&amp;rsquo;m very well, how are you?
+And I got some friends and I&amp;rsquo;m sorry if they are listening because they did their best, but the end product like was not something that was gonna work.</description>
+    </item>
+    
+    <item>
+      <title>Generative Art and Creative Code</title>
+      <link>https://daoistry.com/old/episodes/generative-art-and-creative-code/</link>
+      <pubDate>Thu, 19 Sep 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/generative-art-and-creative-code/</guid>
+      <description>Generative art, creative code, and the world around us! Tim and Ruth jump right into creative code and generative art, this episode we talk about the what, when and why&amp;rsquo;s.
+&amp;ndash;
+Tim: In a non-nonphysical form. I&amp;rsquo;ve got some history stuff here. New tendencies exhibitions. So this is the first exhibitions that, this was the first series of exhibitions that brought computers or coding specifically into the art forms that they were displaying.</description>
+    </item>
+    
+    <item>
+      <title>Introducing the Generative Art Podcast</title>
+      <link>https://daoistry.com/old/episodes/introducing-the-generative-art-podcast/</link>
+      <pubDate>Sun, 15 Sep 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/introducing-the-generative-art-podcast/</guid>
+      <description>Introducing our Generative Art Podcast! In this episode Ruth and Tim get to talking about what they want to get out of this podcast, where we want to take it, and preaching the good word of creative code, and generative art.
+&amp;ndash;
+Ruth: Oh yeah.
+Tim: Exactly and yourself.
+Tim: Glass, led lighting, playdough.
+Ruth: Cool. Thanks Tim.
+Tim: Thanks Ruth. </description>
+    </item>
+    
+    <item>
+      <title>Piet Mondrian</title>
+      <link>https://daoistry.com/old/mindsets_/piet-mondrian/</link>
+      <pubDate>Mon, 27 Aug 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/piet-mondrian/</guid>
+      <description>Piet Mondrian Replicating Piet Mondrian&amp;rsquo;s art with code is no easy task, in fact honestly I&amp;rsquo;d say there&amp;rsquo;s no real way of pinning down his creations entirely with code, they were hand made. That said, we can try to replicate something within the realm of what would have been one of Piet&amp;rsquo;s works&amp;hellip; so that&amp;rsquo;s what we will do in this tutorial&amp;hellip; and yes, we will add the color as well.</description>
+    </item>
+    
+    <item>
+      <title>Hypnotic Squares</title>
+      <link>https://daoistry.com/old/mindsets_/hypnotic-squares/</link>
+      <pubDate>Sun, 26 Aug 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/hypnotic-squares/</guid>
+      <description>Hypnotic Squares William Kolomyjec&amp;rsquo;s work is again reminiscent of some of the old school generative works, focusing on simple shapes, tiling and recursion.
+Today we&amp;rsquo;re going to replicate a piece of his called Hypnotic Squares.
+The only HTML we have on the page is a &amp;lt;canvas&amp;gt; element at 320×320 pixels.
+As usual, here is our initial setup. Using window.devicePixelRatio to scale the canvas on retina screens, and setting our canvas size.</description>
+    </item>
+    
+    <item>
+      <title>Async the updates</title>
+      <link>https://daoistry.com/practices/async-updates/</link>
+      <pubDate>Thu, 19 Jul 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/practices/async-updates/</guid>
+      <description>Async the updates New people join a DAO, and have no idea where to go. Guilds can&amp;rsquo;t keep all their members up to speed, let alone other guilds.
+Why? Because all the important info is shared in in ephemerical channels: voice chats, group calls, dms and endlessly scrolling channels. No way to keep up.
+The fix isn&amp;rsquo;t onboarding or more meetings, its when the core team members of projects communicate heir progress to each other in an async feed.</description>
+    </item>
+    
+    <item>
+      <title>Circle Packing</title>
+      <link>https://daoistry.com/old/mindsets_/circle-packing/</link>
+      <pubDate>Thu, 19 Jul 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/circle-packing/</guid>
+      <description>Circle Packing Circle packing is such a fantastic effect, it looks infinitely complex, while also being mathematically beautiful. In this tutorial, we&amp;rsquo;re going to create a circle packing effect&amp;hellip; Interestingly, this is a good example of an effect that isn&amp;rsquo;t particularly efficient to run, but at the same time, will still be very quick!
+As usual, we&amp;rsquo;re going to begin with a small, clean canvas. We will also set the size of the canvas and adjust it based on the user&amp;rsquo;s device pixel ratio, or pixel density.</description>
+    </item>
+    
+    <item>
+      <title>Un Deux Trois</title>
+      <link>https://daoistry.com/old/mindsets_/un-deux-trois/</link>
+      <pubDate>Fri, 06 Jul 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/un-deux-trois/</guid>
+      <description>Un Deux Trois Vera Molnár is a true inspiration to anyone interested in generative art. She is truly one of the very first people to be creating digital art, and one of the most compelling to follow. In this tutorial, we&amp;rsquo;re going to reproduce one of her works, Un Deux Trois.
+We&amp;rsquo;re going to use a somewhat standard setup here, getting our canvas and context which we will use to draw.</description>
+    </item>
+    
+    <item>
+      <title>Triangular Mesh</title>
+      <link>https://daoistry.com/old/mindsets_/triangular-mesh/</link>
+      <pubDate>Thu, 28 Jun 2018 10:24:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/triangular-mesh/</guid>
+      <description>Triangular Mesh This triangular meshing effect is often shown off in libraries with SVG. Today we&amp;rsquo;re going to build it with canvas! It&amp;rsquo;s a great example of how a coordinate system and a little displacement can give clean beautiful effects.
+As usual we begin with a little setup code, a square canvas. We will also set the size of the canvas and adjust it based on the user&amp;rsquo;s device pixel ratio, or pixel density.</description>
+    </item>
+    
+    <item>
+      <title>Cubic Disarray</title>
+      <link>https://daoistry.com/old/mindsets_/cubic-disarray/</link>
+      <pubDate>Thu, 17 May 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/cubic-disarray/</guid>
+      <description>Cubic Disarray Georg Nees&#39; fantastic generative art is a true inspiration. In this tutorial, we&amp;rsquo;re going to build one of his pieces: Cubic Disarray.
+The only HTML we have on the page is a &amp;lt;canvas&amp;gt; element at 320×320 pixels.
+As usual, here is our initial setup. You&amp;rsquo;re not going to see anything render here, because these are the primary lines to setting up the canvas and context which we use to draw.</description>
+    </item>
+    
+    <item>
+      <title>Joy Division</title>
+      <link>https://daoistry.com/old/mindsets_/joy-division/</link>
+      <pubDate>Fri, 04 May 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/joy-division/</guid>
+      <description>Joy Division The Joy Division album cover has a cool history, and is a beautiful example of data driven art. In this tutorial we&amp;rsquo;re going to recreate it in a more simplistic form.
+We&amp;rsquo;re going to do this with the JavaScript canvas. No extra APIs. The only HTML we have on the page is a &amp;lt;canvas&amp;gt; element at 320×320 pixels.
+Let&amp;rsquo;s kick things off with some initial setup. You&amp;rsquo;re not going to see anything render here, because these are the primary lines to setting up the canvas and context which we use to draw.</description>
+    </item>
+    
+    <item>
+      <title>Tiled Lines</title>
+      <link>https://daoistry.com/old/mindsets_/tiled-lines/</link>
+      <pubDate>Fri, 04 May 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/tiled-lines/</guid>
+      <description>Tiled Lines I want to get going with some of the earliest but simplest programming art out there. I&amp;rsquo;m referring to the 10 PRINT artwork initially coded for the Commodore 64. This work has been featured all over the place, and gives a really stunning effect for something so simple.
+We&amp;rsquo;re going to do this with the JavaScript canvas. No extra APIs today. The only HTML we have on the page is a &amp;lt;canvas&amp;gt; element at 320×320 pixels.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://daoistry.com/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/credits/</guid>
+      <description>Based on essays by Vitalik Buterin, Laura Lotti, and Steve Biko, and largely by remote-first team practices used at Source Institute, Basecamp, and Spotify.
+Website design based on Generative Artistry, by Ruth John and Tim Holman.</description>
+    </item>
+    
+    <item>
+      <title>Accordance Dialogues</title>
+      <link>https://daoistry.com/practices/accordance-dialogues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/accordance-dialogues/</guid>
+      <description>Accordance Dialogues are used to develop proposals that benefit from:
+ group accordance, consensus, or near-consensus group attention to reveal unforeseen issues and offer improvements  Communication style Accordance Dialogues are designed to work in async communication (on a forum) or in a group call (sync). For big issues requiring consideration, they&amp;rsquo;re usually used async first, and fall back to group calls if needed. They&amp;rsquo;re also useful for group calls, when a facilitator wants to move the group towards tangible action.</description>
+    </item>
+    
+    <item>
+      <title>Architectural Decentralisation</title>
+      <link>https://daoistry.com/mindsets/political-decentralisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/mindsets/political-decentralisation/</guid>
+      <description>The opposite of heirarchy isn&amp;rsquo;t flatness, it&amp;rsquo;s autonomy.
+ To understand decentralisation, you need to separate the types of decentralisation:
+Political Decentralisation is when no single group can enforce their decisions on others. It increases autonomy and removes constraints. It allows for people to control their own environment and do their best work.
+Political centralisation means people have to work according to the rules others set. Political decentralisation is when they set their own rules.</description>
+    </item>
+    
+    <item>
+      <title>Chat is not a feed.</title>
+      <link>https://daoistry.com/practices/chat-is-social-only/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/chat-is-social-only/</guid>
+      <description>The worst thing in the universe is having to follow yet another chatroom. DAO chatrrooms are usually really busy, but when you look at who&amp;rsquo;s getting the real work done, they&amp;rsquo;re not on chat. They&amp;rsquo;ve say so &amp;ldquo;no&amp;rdquo; to FOMO.
+Chat is strictly for social, fun and random stuff only. So its optional and you can tune out without worry.
+Because if it’s important, it’s in an async update.</description>
+    </item>
+    
+    <item>
+      <title>Information wants to be free</title>
+      <link>https://daoistry.com/mindsets/information-wants-to-be-free/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/mindsets/information-wants-to-be-free/</guid>
+      <description>This ethos dates back decades, to the Hacker Ethic and is a key foundation of Blockchain Culture and technology.
+Blockchains build on this, not only requiring information to be free, but for the first time, allowing anyone to register and verify it without third-party dependencies.
+A Polkadot slogan actually represents the north start of blockchain technology in society: &amp;ldquo;Less Trust with More Truth&amp;rdquo; The means that as society can rely more on blockchains as source of truth, the less we have to trust parties whose interests conflict with our own.</description>
+    </item>
+    
+    <item>
+      <title>Meetings are for doing, not updating</title>
+      <link>https://daoistry.com/practices/meetings-are-for-doing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/meetings-are-for-doing/</guid>
+      <description>If you use meetings to update each other, you exclude people, isolate your team from the DAO, and waste everyone&amp;rsquo;s time.
+Updates are much better made on a dedicated, async feed, so you can update in real-time, and people can catch up on their own schedule.
+When you get together, it should be to produce a result that is better done with real-time collaboration.
+That could be agreeing on priorities (such as a 20-minute agile standup call) or working on a boundary object that gets everyone on the same page.</description>
+    </item>
+    
+    <item>
+      <title>No more catch-all meetings</title>
+      <link>https://daoistry.com/practices/no-catchall-meetings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/no-catchall-meetings/</guid>
+      <description>&amp;ldquo;That&amp;rsquo;s a good idea &amp;ndash; why don&amp;rsquo;t you present it on the Thursday community call?&amp;rdquo;
+&amp;ldquo;I need to talk to Ahmed to get this done. I&amp;rsquo;ll just grab him after Monday&amp;rsquo;s stand-up call.&amp;rdquo;
+&amp;ldquo;That&amp;rsquo;s bothering you. Let&amp;rsquo;s talk after tomorrow&amp;rsquo;s team meeting.&amp;rdquo;
+ Seems okay, except for 2 big problems:
+ It causes delays to get things done, especially quick and important stuff. It prevents emotional issues from being talked about open.</description>
+    </item>
+    
+    <item>
+      <title>PPP Pulse - Plans, Progress, Problems</title>
+      <link>https://daoistry.com/practices/plans-progress-problems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/plans-progress-problems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quick calls only</title>
+      <link>https://daoistry.com/practices/quick-calls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/quick-calls/</guid>
+      <description>We all know calls are useful, but all these scheduled group calls are horrible. So start with the obvious answer!
+Quick calls only - one-on-one and unscheduled.
+Calls should be used sparingly, since async is more thoughtful and inclusive, but sometimes a voice conversation is the right way to go.
+Things like brainstorms, quick clarifications, or discussions that involve a lot of Q&amp;amp;A back-and-forth - and anything that gets a little emotional – it’s time for a call.</description>
+    </item>
+    
+    <item>
+      <title>Remove the middle man(agement)</title>
+      <link>https://daoistry.com/mindsets/middleman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/mindsets/middleman/</guid>
+      <description>A big idea in DAOs is to get rid of the middle man.
+But middlemen are also management.
+If you control the money, or control the information, you&amp;rsquo;ve made yourself a middleman.
+Most middlemen in DAOs got there by accident.
+They made a proposal and ended up managing the token allocation. They joined a guild and ended up making all the important decisions and updates in meetings.
+Next thing you know, that DAO feels a whole lot like a bad company.</description>
+    </item>
+    
+    <item>
+      <title>Share your personal priorities</title>
+      <link>https://daoistry.com/practices/personal-priorities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/personal-priorities/</guid>
+      <description>Every few weeks, write a quick note to update everyone with your top 3 priorities.
+This way, everyone knows what’s going on and and if they should connect with you about something (or not). It also creates a sense of peer accountability and peer support.
+This one act is a game-changer for self-organising, because it let&amp;rsquo;s anyone who can help you find you and connect.
+Tips  Try to describe your priorities as outcome states (The website is drafted so the team can review it( and not just a task ( write website ).</description>
+    </item>
+    
+    <item>
+      <title>Small squads self-direct better</title>
+      <link>https://daoistry.com/practices/squads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/squads/</guid>
+      <description>Squads form around projects (with one-time end results) or factories (to produce a similar output repeatedly) Squads are a maximum of 4 people to stay agile.
+Think of squads like a motorboat towing water-skiiers.
+The people on the boat need to make quick decisions. They should be committed, and experienced enough to make expert decisions. They drive.
+Everyone else is a water skiier. They follow along and get pulled in when needed.</description>
+    </item>
+    
+    <item>
+      <title>Squad Independence</title>
+      <link>https://daoistry.com/practices/squad-independence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/squad-independence/</guid>
+      <description>Squads take responsibility for their results and direction, and report that to everyone else. They consult with the broader collective in order to set goals (Their Why) but have both full autonomy and responsibility for figuring out how to achieve them (Their How).
+Squads choose their own tools, and set their own practices. They do not have practices imposed on them by corporate higher-ups.
+Tips A good way for squads to do this is using OKRs (Objectives Key Results) but any form objectively observable/measurable goal works.</description>
+    </item>
+    
+    <item>
+      <title>Squad priorities meeting</title>
+      <link>https://daoistry.com/practices/squad-priorities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/practices/squad-priorities/</guid>
+      <description>A great way to get rid of almost all group meetings is the squad priorities meeting
+This is a structured meeting that happens at the same time each week. No updates or “while I’ve got you” stuff, since those happened already on in async.
+In a priorties meeting, there&amp;rsquo;s only one thing to do: agree on the team&amp;rsquo;s priorities for the coming week.
+The team works from a single kanban board, where each card is an outcome (not a task).</description>
+    </item>
+    
+    <item>
+      <title>Think Fractal</title>
+      <link>https://daoistry.com/mindsets/fractal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/mindsets/fractal/</guid>
+      <description>When a bunch of cells make an animal, that&amp;rsquo;s fractals. When a bunch of buildings make a village, that&amp;rsquo;s fractals. And when a bunch of people make an organisation&amp;hellip;
+&amp;hellip; that depends on the organisation.
+There are plenty of examples for decentalised organisations that DAOs can draw from:
+ chapter-based organisations, like the Kiwanis Club, Freemasons and Hell&amp;rsquo;s Angels meetup groups that sprout up in different cities open source projects that come together to build something companies that have decentralised themselves, like Semco, Valve Games, Goretex and Spotify startups that have created best practices for small, remote teams  They all have something in common: they rely on individuals to make the changes to decentralisation.</description>
+    </item>
+    
+    <item>
+      <title>Understanding decentralisation</title>
+      <link>https://daoistry.com/mindsets/decentralisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/mindsets/decentralisation/</guid>
+      <description>One of the big reasons DAOs are leading somewhere new is decentralisation. But this term is often misunderstood.
+Here we&amp;rsquo;ll draw on Vitalik Buterin&amp;rsquo;s essay (he&amp;rsquo;s the founder of Ethereum) , where he clears things up.
+Vitalik distinguishes 3 different types of decentralisation:
+Political - who makes the decisions that affect others autonomy?
+Corporations are politically centralised. The CEO calls the shots. Departments also centralise various decisions that the rest of the company must obey.</description>
+    </item>
+    
+    <item>
+      <title>Update calls</title>
+      <link>https://daoistry.com/anti-patterns/update-calls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/anti-patterns/update-calls/</guid>
+      <description>Update calls feel easy, but they make too many things hard.
+Update calls lock out everyone who wasn&amp;rsquo;t in the call. This creates a shadow hierarchy, since update information is only shared with people on the call. When update calls become the norm, self-coordination becomes a real pain, because everyone needs to be on so many calls!
+The way out is to update asynchronously.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Piet Mondrian | DAOistry</title>
+
+    <meta charset="utf-8">
+    
+    <meta name="description" content="Piet Mondrians art is world renoun, there&#39;s also something about his style that makes it irresistable to try to replicate with code. The art of DAO">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/syntax-highlighting.css" rel="stylesheet">
+  </head>
+  <body class="tutorial">
+
+    <header>
+  <div class="wrapper">
+    <a class="logo" href="/">DAOistry</a>
+    <div class="links">
+      <a class="practices" href="/practices">anti-patterns</a> • <a class="practices" href="/practices">practices</a> • <a class="mindsets" href="/mindsets">mindsets</a> 
+    </div>
+  </div>
+</header>
+
+
+    <div class="tutorial-post">
+      
+      <div class="tutorial-sidebar">
+
+        <div id="tutorial-code" class="tutorial-code"></div>
+        
+        <div class="tutorial-send-code">
+          <span>➵</span>
+        </div>
+
+        <iframe class="tutorial-frame" src="/utils/injectable-iframe.html" sandbox="allow-same-origin allow-scripts"></iframe>
+
+      </div>
+
+      <div class="tutorial-content">
+        <h1 id="piet-mondrian">Piet Mondrian</h1>
+<p>Replicating <a href="https://en.wikipedia.org/wiki/Piet_Mondrian">Piet Mondrian&rsquo;s</a> art with code is no easy task, in fact honestly I&rsquo;d say there&rsquo;s no real way of pinning down his creations entirely with code, they were hand made. That said, we can try to replicate something within the realm of what would have been one of Piet&rsquo;s works&hellip; so that&rsquo;s what we will do in this tutorial&hellip; and yes, we will add the color as well.</p>
+<p>As usual, here is our initial setup. Using <code>window.devicePixelRatio</code> to scale the canvas on retina screens, and setting our canvas size, with only a html <code>&lt;canvas&gt;</code> on the page.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Now, the approach I&rsquo;d like to take isn&rsquo;t perfect, but what I&rsquo;d like to do is start with a big square (the canvas) and then start to divide it up&hellip; we will pick a line, either horizontally or vertically and break any squares in that area&hellip; after that, we&rsquo;ll add some random to the splitting, so not all squares are split, which should give us something around the famous Mondrian look, albeit probably a little more mathematically rigid.</p>
+<p>We&rsquo;ll create an array of squares.</p>
+<!-- raw HTML omitted -->
+<p>And, as I like to do, we&rsquo;ll create our &ldquo;draw&rdquo; function and call it, so we can see what we&rsquo;re making.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>This is looping through all of our squares (just one at the moment, and drawing it on the canvas).</p>
+<p>Now, we can create a function to find which squares should be split&hellip; and then the function to split the square in the direction we&rsquo;ve given.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>You can see at the bottom that I&rsquo;m also calling the split the squares on the <code>x</code> and <code>y</code>, both in the middle. If these work, we&rsquo;ll know we can do a lot more splitting. But for now, these will be great for testing.</p>
+<p>First, the <code>splitSquaresWith</code> function.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>There&rsquo;s a bit going on here, including some cheeky little tricks.</p>
+<ul>
+<li><code>const { x, y } = coordinates</code> is extracting the <code>x</code> and <code>y</code> variables out of the object we&rsquo;re passing, eg <code>{x: 160}</code> or <code>{y: 160}</code></li>
+<li>We&rsquo;re looping backwards through the squares with <code>(var i = squares.length - 1; i &gt;= 0; i--)</code> this is because we&rsquo;re taking elements <strong>out</strong> of the loop (and replacing them with 2 squares), looping backwards means the order will stay the same, and the new items won&rsquo;t be split again.</li>
+</ul>
+<p>Of course, our single square has disappeared because we need to fill out the <code>splitOn</code> functions, these are going to look pretty similar.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>And&hellip;</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>These two functions are creating two squares, where the previous single square was, and then adding them back into our <code>squares</code> array. You can see by splitting in the two centers, we&rsquo;ve made a window.</p>
+<p>Instead of our two practice splits, we&rsquo;ll create a <code>step</code> variable, and split on that step over and over.</p>
+<!-- raw HTML omitted -->
+<p>And then the loop.</p>
+<!-- raw HTML omitted -->
+<p>Whew, that was a lot of set up&hellip; we can get into the <code>random</code> now. Rather than splitting each and every square when we hit it, we&rsquo;ll only split them half the time.</p>
+<!-- raw HTML omitted -->
+<p>Ooh, looking good. And on the <code>y</code> axis too!</p>
+<!-- raw HTML omitted -->
+<p>And there we have it, the shapes and structure we want! As always, with these tutorials you can hit the small arrow sitting between the editor and the demo and the code will rerun, if you press it a few times now, you&rsquo;ll see our Mondrian structure take a few different shapes.</p>
+<p>Let&rsquo;s add some color in. First the variables, using those beautiful red, blue and yellow colors.</p>
+<!-- raw HTML omitted -->
+<p>We&rsquo;ll pick three random squares, and give each of them a <code>color</code>. You might see only one or two colors, and that is because the same square was randomly selected twice.</p>
+<!-- raw HTML omitted -->
+<p>And of course, making sure the draw function colors them in.</p>
+<!-- raw HTML omitted -->
+<p>Colors, beautiful! Again, if you don&rsquo;t see any, it should be a matter of hitting the arrow on the side a few times.</p>
+<p>You can see now as well, how simple it is to add or remove complexity based on the grid.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>And there we have it, a Mondrian. Please, hit the link below to have a play on CodePen, play with the colors, how you apply them, play with the split percentages. It&rsquo;s all good fun!</p>
+
+        <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+  <input type="hidden" name="data" value='{}'>
+  ↪ You can edit the code above, and have it run by pressing the arrow between the code and demo, but if you like, you can also play around a little with this code <input type="submit" id="codepen-prefil" value="on CodePen">
+</form>
+      </div>
+    </div>
+    
+    <footer>
+	<div class="wrapper">
+		<div class="links">
+			<a href="/credits/" target="_blank" rel="noopener noreferrer">Credits</a>
+		</div>
+	</div>
+</footer>
+
+
+    <script src="/js/tmd.js"></script>
+    <script src="/js/codepen-prefil.js"></script>
+    <script src="/js/favicon.js"></script>
+    <script src="/js/libs/monaco-editor/min/vs/loader.js"></script>
+
+    <script>
+
+        require.config({ paths: { 'vs': '/js/libs/monaco-editor/min/vs' }});
+        var tmd, editor;
+
+        require(['vs/editor/editor.main'], function() {
+          editor = monaco.editor.create(document.querySelector('#tutorial-code'), {
+            value: [
+              '// These tutorials are using tutorial markdown (https://github.com/tholman/tutorial-markdown)',
+              '// start scrolling, and we\'ll',
+              '// write the code.'
+            ].join('\n'),
+            lineNumbersMinChars: 2,
+            scrollBeyondLastLine: false,
+            language: 'javascript',
+            fontSize: 10,
+            minimap: { enabled: false },
+            hover: false,
+            occurrencesHighlight: false
+          })
+
+          editor.getModel().updateOptions({ tabSize: 2 })
+
+          tmd = new TutorialMarkdown({
+            editor: {
+              editor: editor,
+               api: monaco
+             },
+             iframe: document.querySelector('.tutorial-frame'),
+             markdownSelector: {
+               blockSelector: '.tmd-trigger', 
+               codeSelector: '.lntd:nth-child(2) .language-js' 
+             }
+          })
+        })
+
+        document.querySelector('.tutorial-send-code').addEventListener('click', function() {
+          tmd.sendCode()
+        })
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121043299-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121043299-1');
+</script>
+  </body>
+</html>

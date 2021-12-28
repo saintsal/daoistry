@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Circle Packing | DAOistry</title>
+
+    <meta charset="utf-8">
+    
+    <meta name="description" content="Packing circles into a tight space gives a beautiful effect, and it&#39;s not nearly as complex as it looks! The art of DAO">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/syntax-highlighting.css" rel="stylesheet">
+  </head>
+  <body class="tutorial">
+
+    <header>
+  <div class="wrapper">
+    <a class="logo" href="/">DAOistry</a>
+    <div class="links">
+      <a class="practices" href="/practices">anti-patterns</a> • <a class="practices" href="/practices">practices</a> • <a class="mindsets" href="/mindsets">mindsets</a> 
+    </div>
+  </div>
+</header>
+
+
+    <div class="tutorial-post">
+      
+      <div class="tutorial-sidebar">
+
+        <div id="tutorial-code" class="tutorial-code"></div>
+        
+        <div class="tutorial-send-code">
+          <span>➵</span>
+        </div>
+
+        <iframe class="tutorial-frame" src="/utils/injectable-iframe.html" sandbox="allow-same-origin allow-scripts"></iframe>
+
+      </div>
+
+      <div class="tutorial-content">
+        <h1 id="circle-packing">Circle Packing</h1>
+<p>Circle packing is such a fantastic effect, it looks infinitely complex, while also being mathematically beautiful. In this tutorial, we&rsquo;re going to create a circle packing effect&hellip; Interestingly, this is a good example of an effect that isn&rsquo;t particularly efficient to run, but at the same time, will still be very quick!</p>
+<p>As usual, we&rsquo;re going to begin with a small, clean canvas. We will also set the size of the canvas and adjust it based on the user&rsquo;s device pixel ratio, or pixel density. This ensures that the final result is crisp on all monitors.</p>
+<!-- raw HTML omitted -->
+<p>Now, I&rsquo;m going to explain a little about our process, so we know which variables we will need. You&rsquo;ll be able to see here that it&rsquo;s not the most efficient, but it really gets the job done.</p>
+<p>Our steps will be:</p>
+<ol>
+<li>Create a new <code>Circle</code></li>
+<li>Check to see if the circle collides with any other circles we have.</li>
+<li>If it doesn&rsquo;t collide, we will grow it slightly, and then check again if it collides.</li>
+<li>Repeat these steps until we have a collision, or we reach a &ldquo;max size&rdquo;</li>
+<li>Create another circle and repeat <code>x</code> times.</li>
+</ol>
+<p>So, we have an array of <code>circles</code>, a <code>totalCircles</code>, a min &amp; max <code>circleSize</code> and a <code>createCircleAttempts</code>. Let&rsquo;s get this in code.</p>
+<!-- raw HTML omitted -->
+<p>Now we will spec out our process. We will make a <code>createCircle</code> and <code>doesCircleHaveACollision</code> function, and then fill it in with our goals&hellip; including calling the <code>createAndDrawCircle</code> function once for each of our <code>totalCircles</code> variable.</p>
+<!-- raw HTML omitted -->
+<p>This is the fun part, we can go through our functions and fill them in. If we tackle this in a step by step way, it will flow out really well.</p>
+<p>First, we&rsquo;ll start with creating a circle object, we&rsquo;ll give it an <code>x</code>, <code>y</code> and a <code>radius</code></p>
+<!-- raw HTML omitted -->
+<p>Now, we&rsquo;ll add it to our list of circles, and draw it&hellip; we didn&rsquo;t really need to do this just yet, but being able to see what we&rsquo;re coding render out really helps with the process.</p>
+<!-- raw HTML omitted -->
+<p>Awesome, and there we have it, tiny circles all over our screen. Next, we can look at growing them. We will do this 1 unit at a time, and when they collide, we&rsquo;ll take one step back, and break out of the loop.</p>
+<!-- raw HTML omitted -->
+<p>Wow, what a mess we&rsquo;ve made! Of course we know the reason for this. Currently our <code>doesCircleHaveACollision</code> function always returns <code>false</code> &hellip; we&rsquo;ll need to fill that in.</p>
+<p>The way that we tell if circles have a collision, is a little bit of trigonometry. We&rsquo;re going to loop through each of the circles that are drawn and compare them to the current circle being drawn. If their radii combined, is greater than the distance between each of their centers, then we know there&rsquo;s a collision.</p>
+<p>To get the distance between the two center points, we will use <code>pythagoras' theorem</code> (whoa, that high school math coming in handy!)</p>
+<!-- raw HTML omitted -->
+<p>Almost there! But another small gotcha, when we&rsquo;re creating our circles, there&rsquo;s also a chance that they&rsquo;re appearing <em>inside</em> others.</p>
+<p>We&rsquo;re going to use a loop in the creation area now as well, its a little inefficient to randomly guess positions, but really at the end of the day, unless we were doing millions of circles, we won&rsquo;t see any slow down.</p>
+<p>If the circle doesn&rsquo;t find a safe place to draw, the attempt is abandoned.</p>
+<!-- raw HTML omitted -->
+<p>Wow, now we&rsquo;ve got some beautiful circles, all packed in! There&rsquo;s only one little step more to do, and that is to trigger a collision when they hit the wall as well as each other. We&rsquo;ll break that into two if statements, one checking the top and bottom, and one checking the left and right.</p>
+<!-- raw HTML omitted -->
+<p>And there we have it! It&rsquo;s not the prettiest code, but it&rsquo;s a great example of how some complex things can be reasoned out, thought about, and stepped through with relative ease &amp; a little math.</p>
+
+        <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+  <input type="hidden" name="data" value='{}'>
+  ↪ You can edit the code above, and have it run by pressing the arrow between the code and demo, but if you like, you can also play around a little with this code <input type="submit" id="codepen-prefil" value="on CodePen">
+</form>
+      </div>
+    </div>
+    
+    <footer>
+	<div class="wrapper">
+		<div class="links">
+			<a href="/credits/" target="_blank" rel="noopener noreferrer">Credits</a>
+		</div>
+	</div>
+</footer>
+
+
+    <script src="/js/tmd.js"></script>
+    <script src="/js/codepen-prefil.js"></script>
+    <script src="/js/favicon.js"></script>
+    <script src="/js/libs/monaco-editor/min/vs/loader.js"></script>
+
+    <script>
+
+        require.config({ paths: { 'vs': '/js/libs/monaco-editor/min/vs' }});
+        var tmd, editor;
+
+        require(['vs/editor/editor.main'], function() {
+          editor = monaco.editor.create(document.querySelector('#tutorial-code'), {
+            value: [
+              '// These tutorials are using tutorial markdown (https://github.com/tholman/tutorial-markdown)',
+              '// start scrolling, and we\'ll',
+              '// write the code.'
+            ].join('\n'),
+            lineNumbersMinChars: 2,
+            scrollBeyondLastLine: false,
+            language: 'javascript',
+            fontSize: 10,
+            minimap: { enabled: false },
+            hover: false,
+            occurrencesHighlight: false
+          })
+
+          editor.getModel().updateOptions({ tabSize: 2 })
+
+          tmd = new TutorialMarkdown({
+            editor: {
+              editor: editor,
+               api: monaco
+             },
+             iframe: document.querySelector('.tutorial-frame'),
+             markdownSelector: {
+               blockSelector: '.tmd-trigger', 
+               codeSelector: '.lntd:nth-child(2) .language-js' 
+             }
+          })
+        })
+
+        document.querySelector('.tutorial-send-code').addEventListener('click', function() {
+          tmd.sendCode()
+        })
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121043299-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121043299-1');
+</script>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Hours of Dark | DAOistry</title>
+
+    <meta charset="utf-8">
+    
+    <meta name="description" content="365 strokes representing the hours of darkness of each day. A recreation of the 2011 calendar by Accept &amp; Proceed. The art of DAO">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/syntax-highlighting.css" rel="stylesheet">
+  </head>
+  <body class="tutorial">
+
+    <header>
+  <div class="wrapper">
+    <a class="logo" href="/">DAOistry</a>
+    <div class="links">
+      <a class="practices" href="/practices">anti-patterns</a> • <a class="practices" href="/practices">practices</a> • <a class="mindsets" href="/mindsets">mindsets</a> 
+    </div>
+  </div>
+</header>
+
+
+    <div class="tutorial-post">
+      
+      <div class="tutorial-sidebar">
+
+        <div id="tutorial-code" class="tutorial-code"></div>
+        
+        <div class="tutorial-send-code">
+          <span>➵</span>
+        </div>
+
+        <iframe class="tutorial-frame" src="/utils/injectable-iframe.html" sandbox="allow-same-origin allow-scripts"></iframe>
+
+      </div>
+
+      <div class="tutorial-content">
+        <h1 id="hours-of-dark">Hours of Dark</h1>
+<!-- raw HTML omitted -->
+<p>In this tutorial, we are going to recreate the look of a print by Accept &amp; Proceed called <!-- raw HTML omitted -->Hours of Dark 2011<!-- raw HTML omitted -->. All the strokes in the grid represent a day, their width proportional to the hours of darkness and their orientation defined by the angle of the sunset.</p>
+<p>Here is our initial setup with a single <code>&lt;canvas&gt;</code> element, using <code>window.devicePixelRatio</code> to scale it on retina screens.</p>
+<!-- raw HTML omitted -->
+<p>We need a few variables to describe the grid. First, the number of strokes which is the same as the number of days in a non-leap year. Then the number of columns and rows, just enough to pack 365 cells in the grid. In this case 23×16 = 368, so the last 3 cells will be blank.</p>
+<!-- raw HTML omitted -->
+<p>We also need variables to define the dimensions of the grid, which has a landscape aspect. And from that we can calculate the dimensions of each cell and the top and left margins.</p>
+<!-- raw HTML omitted -->
+<p>Now we have enough to start drawing the strokes. We are going to loop over <code>days</code> column by column, so first, all the rows in the first column, then all the rows in the second column and so on.</p>
+<p><code>x</code> and <code>y</code> depend on the margins and on the cell dimensions. The width and height of each stroke (<code>w</code>, <code>h</code>) are arbitrary values which look right for the size of our canvas on the page. The rectangles are drawn from the centre, so this will be their anchor point when we rotate them later.</p>
+<!-- raw HTML omitted -->
+<p>At this point, the grid is a bit offset to the left and to the top, and this is because <code>x</code> and <code>y</code> are the top-left of each cell. So we need one more call to <code>translate</code> to place the origin at the centre of the cell. These separate calls will come in handy later.</p>
+<!-- raw HTML omitted -->
+<p>Now we need to calculate the rotation. In the original calendar, the authors used data from the angle of the sunset (known as the Azimuth) to determine the orientation of the lines. Luckily for us, we can get pretty close with a sine curve, thanks to the smooth wobble of our planet.</p>
+<p>The trick here is to use two angles.</p>
+<p>The first one <code>phi</code> determines the range of rotation in a year, which is between 0 and Π.</p>
+<p>The second one <code>theta</code> modulates the first one with a sine curve, so instead of rotating a full 180°, it eases in and out of the first half of that angle and then eases back into 0°.</p>
+<!-- raw HTML omitted -->
+<p>To match the look, we need to nudge the inital angle. We also need to adjust the rotation range so it&rsquo;s a little bit less than 90°.</p>
+<!-- raw HTML omitted -->
+<p>The thickness of the strokes is proportional to the hours of darkness in each day. Again, we can get away with a good approximation using a cosine curve.</p>
+<!-- raw HTML omitted -->
+<p>The last step is to apply a clipping mask so each stroke is only drawn inside its cell. This is where our separate calls to <code>translate</code> come in handy, so we need to insert the next chunk of code in between those calls.</p>
+<!-- raw HTML omitted -->
+<p>And there we have it! Simple and elegant. A beautiful piece of data visualisation from <!-- raw HTML omitted -->Accept &amp; Proceed<!-- raw HTML omitted --> which we managed to recreate with some sine and cosine curves.</p>
+
+        <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+  <input type="hidden" name="data" value='{}'>
+  ↪ You can edit the code above, and have it run by pressing the arrow between the code and demo, but if you like, you can also play around a little with this code <input type="submit" id="codepen-prefil" value="on CodePen">
+</form>
+      </div>
+    </div>
+    
+    <footer>
+	<div class="wrapper">
+		<div class="links">
+			<a href="/credits/" target="_blank" rel="noopener noreferrer">Credits</a>
+		</div>
+	</div>
+</footer>
+
+
+    <script src="/js/tmd.js"></script>
+    <script src="/js/codepen-prefil.js"></script>
+    <script src="/js/favicon.js"></script>
+    <script src="/js/libs/monaco-editor/min/vs/loader.js"></script>
+
+    <script>
+
+        require.config({ paths: { 'vs': '/js/libs/monaco-editor/min/vs' }});
+        var tmd, editor;
+
+        require(['vs/editor/editor.main'], function() {
+          editor = monaco.editor.create(document.querySelector('#tutorial-code'), {
+            value: [
+              '// These tutorials are using tutorial markdown (https://github.com/tholman/tutorial-markdown)',
+              '// start scrolling, and we\'ll',
+              '// write the code.'
+            ].join('\n'),
+            lineNumbersMinChars: 2,
+            scrollBeyondLastLine: false,
+            language: 'javascript',
+            fontSize: 10,
+            minimap: { enabled: false },
+            hover: false,
+            occurrencesHighlight: false
+          })
+
+          editor.getModel().updateOptions({ tabSize: 2 })
+
+          tmd = new TutorialMarkdown({
+            editor: {
+              editor: editor,
+               api: monaco
+             },
+             iframe: document.querySelector('.tutorial-frame'),
+             markdownSelector: {
+               blockSelector: '.tmd-trigger', 
+               codeSelector: '.lntd:nth-child(2) .language-js' 
+             }
+          })
+        })
+
+        document.querySelector('.tutorial-send-code').addEventListener('click', function() {
+          tmd.sendCode()
+        })
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121043299-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121043299-1');
+</script>
+  </body>
+</html>

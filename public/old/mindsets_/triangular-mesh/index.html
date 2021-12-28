@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Triangular Mesh | DAOistry</title>
+
+    <meta charset="utf-8">
+    
+    <meta name="description" content="Triangular meshes are the foundations of 3D modeling, but building one doesn&#39;t require trigonometry craziness. The art of DAO">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/syntax-highlighting.css" rel="stylesheet">
+  </head>
+  <body class="tutorial">
+
+    <header>
+  <div class="wrapper">
+    <a class="logo" href="/">DAOistry</a>
+    <div class="links">
+      <a class="practices" href="/practices">anti-patterns</a> • <a class="practices" href="/practices">practices</a> • <a class="mindsets" href="/mindsets">mindsets</a> 
+    </div>
+  </div>
+</header>
+
+
+    <div class="tutorial-post">
+      
+      <div class="tutorial-sidebar">
+
+        <div id="tutorial-code" class="tutorial-code"></div>
+        
+        <div class="tutorial-send-code">
+          <span>➵</span>
+        </div>
+
+        <iframe class="tutorial-frame" src="/utils/injectable-iframe.html" sandbox="allow-same-origin allow-scripts"></iframe>
+
+      </div>
+
+      <div class="tutorial-content">
+        <h1 id="triangular-mesh">Triangular Mesh</h1>
+<!-- raw HTML omitted -->
+<p>This triangular meshing effect is often shown off in libraries with SVG. Today we&rsquo;re going to build it with canvas! It&rsquo;s a great example of how a coordinate system and a little displacement can give clean beautiful effects.</p>
+<p>As usual we begin with a little setup code, a square canvas. We will also set the size of the canvas and adjust it based on the user&rsquo;s device pixel ratio, or pixel density. This ensures that the final result is crisp on all monitors.</p>
+<!-- raw HTML omitted -->
+<p>Now let&rsquo;s make a grid of dots. The standard way, regular lines and columns. For every dot coordinate we will draw it on the canvas, but also store the coordinate in an array for future use.</p>
+<p>Every coordinate will be represented by an object with 2 properties: <code>x</code> and <code>y</code>.</p>
+<p>The space between lines and columns is defined by the variable <code>gap</code>, we&rsquo;ll draw these circles so we can see how our grid is placed out on the canvas.</p>
+<!-- raw HTML omitted -->
+<p>Now, we&rsquo;re going to displace every other line on the x axis. We do this by alternating the variable called <code>odd</code> between true and false.</p>
+<p>We can see that the new pattern is shaping up to be a mesh of regular triangles.</p>
+<!-- raw HTML omitted -->
+<p>The next step will be using the dots to draw the triangles.</p>
+<p>To make our life easier let&rsquo;s make a function that take the 3 coordinates of a triangle and draw them together.</p>
+<!-- raw HTML omitted -->
+<p>Now we&rsquo;ll string up our <code>drawTriangle</code> function, and use the dots we generated earlier to draw all the triangles.</p>
+<p>This part might be a bit complex to understand. The script is going to go through all the lines and combining the two dots of the sibling line, forming triangles. The concatenation of two lines, let&rsquo;s say line <code>a</code> and line <code>b</code>, and merge the dots into one array to make it look like a zig-zag: <code>a1</code>, <code>b1</code>, <code>a2</code>, <code>b2</code>, <code>a3</code> etc.</p>
+<p>This will give us an array, containing each triangles specific coordinates. Looking something like [<code>a1</code>, <code>b1</code>, <code>a2</code>], [<code>b1</code>, <code>a2</code>, <code>b2</code>], [<code>a2</code>, <code>b2</code>, <code>a3</code>]&hellip;</p>
+<!-- raw HTML omitted -->
+<p>Now that we have a regular triangle mesh, we are one detail away from getting the magic to happen.</p>
+<p>Every dot is a <code>gap</code> away from the surrounding dots. So a dot can be moved in this area without overlapping with other dots. Let&rsquo;s use a bit of <code>Math.random()</code> to get a random position in this area.</p>
+<!-- raw HTML omitted -->
+<p>And for a little extra generative fun, let&rsquo;s add in some grays! Only 16 shades. No more.</p>
+<!-- raw HTML omitted -->
+<p>If you&rsquo;re interested in exploring more detailed implementations of this effect, you can check out my library: <a href="http://maxwellito.github.io/triangulr/">triangulr</a></p>
+
+        <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+  <input type="hidden" name="data" value='{}'>
+  ↪ You can edit the code above, and have it run by pressing the arrow between the code and demo, but if you like, you can also play around a little with this code <input type="submit" id="codepen-prefil" value="on CodePen">
+</form>
+      </div>
+    </div>
+    
+    <footer>
+	<div class="wrapper">
+		<div class="links">
+			<a href="/credits/" target="_blank" rel="noopener noreferrer">Credits</a>
+		</div>
+	</div>
+</footer>
+
+
+    <script src="/js/tmd.js"></script>
+    <script src="/js/codepen-prefil.js"></script>
+    <script src="/js/favicon.js"></script>
+    <script src="/js/libs/monaco-editor/min/vs/loader.js"></script>
+
+    <script>
+
+        require.config({ paths: { 'vs': '/js/libs/monaco-editor/min/vs' }});
+        var tmd, editor;
+
+        require(['vs/editor/editor.main'], function() {
+          editor = monaco.editor.create(document.querySelector('#tutorial-code'), {
+            value: [
+              '// These tutorials are using tutorial markdown (https://github.com/tholman/tutorial-markdown)',
+              '// start scrolling, and we\'ll',
+              '// write the code.'
+            ].join('\n'),
+            lineNumbersMinChars: 2,
+            scrollBeyondLastLine: false,
+            language: 'javascript',
+            fontSize: 10,
+            minimap: { enabled: false },
+            hover: false,
+            occurrencesHighlight: false
+          })
+
+          editor.getModel().updateOptions({ tabSize: 2 })
+
+          tmd = new TutorialMarkdown({
+            editor: {
+              editor: editor,
+               api: monaco
+             },
+             iframe: document.querySelector('.tutorial-frame'),
+             markdownSelector: {
+               blockSelector: '.tmd-trigger', 
+               codeSelector: '.lntd:nth-child(2) .language-js' 
+             }
+          })
+        })
+
+        document.querySelector('.tutorial-send-code').addEventListener('click', function() {
+          tmd.sendCode()
+        })
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121043299-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121043299-1');
+</script>
+  </body>
+</html>

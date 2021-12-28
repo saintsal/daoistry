@@ -1,0 +1,7 @@
+baseURL = "https://daoistry.com"
+languageCode = "en-us"
+title = "DAOistry"
+pygmentsUseClasses = true
+
+[params]
+description = "The art of DAO"

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ $.Site.Title }}</title>
+
+    <meta charset="utf-8" />
+
+    <meta name="description" content="{{ $.Site.Params.Description }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="main">
+    {{ partial "header.html" . }}
+
+    <article class="home-options">
+      <div class="main-option">
+        <a href="/practices">
+          <h2>Practices</h2>
+          <p>
+            Being part of a DAO means doing things differently. Most of the best practices in decentralised organisations seem strange at first, but are easy to pick up. 
+          </p>
+          <p class="get-started">
+            Get Started
+          </p>
+        </a>
+      </div>
+      <div class="main-option">
+        <a href="/mindsets">
+          <h2>Mindsets</h2>
+          <p>
+            Bring part of a DAO means thinking about things differently. Understand the underlying mindsets and principles that progress DAOs towards decentralisation.
+          </p>
+          <p class="get-started">
+            Dig deeper
+          </p>
+        </a>
+      </div>
+    </article>
+
+    {{ partial "footer.html" . }} {{ partial "tracking.html" . }}
+    <script src="/js/favicon.js"></script>
+  </body>
+</html>

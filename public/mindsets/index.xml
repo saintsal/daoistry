@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mindsets on DAOistry</title>
+    <link>https://daoistry.com/mindsets/</link>
+    <description>Recent content in Mindsets on DAOistry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://daoistry.com/mindsets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architectural Decentralisation</title>
+      <link>https://daoistry.com/mindsets/political-decentralisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/mindsets/political-decentralisation/</guid>
+      <description>The opposite of heirarchy isn&amp;rsquo;t flatness, it&amp;rsquo;s autonomy.
+ To understand decentralisation, you need to separate the types of decentralisation:
+Political Decentralisation is when no single group can enforce their decisions on others. It increases autonomy and removes constraints. It allows for people to control their own environment and do their best work.
+Political centralisation means people have to work according to the rules others set. Political decentralisation is when they set their own rules.</description>
+    </item>
+    
+    <item>
+      <title>Information wants to be free</title>
+      <link>https://daoistry.com/mindsets/information-wants-to-be-free/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/mindsets/information-wants-to-be-free/</guid>
+      <description>This ethos dates back decades, to the Hacker Ethic and is a key foundation of Blockchain Culture and technology.
+Blockchains build on this, not only requiring information to be free, but for the first time, allowing anyone to register and verify it without third-party dependencies.
+A Polkadot slogan actually represents the north start of blockchain technology in society: &amp;ldquo;Less Trust with More Truth&amp;rdquo; The means that as society can rely more on blockchains as source of truth, the less we have to trust parties whose interests conflict with our own.</description>
+    </item>
+    
+    <item>
+      <title>Remove the middle man(agement)</title>
+      <link>https://daoistry.com/mindsets/middleman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/mindsets/middleman/</guid>
+      <description>A big idea in DAOs is to get rid of the middle man.
+But middlemen are also management.
+If you control the money, or control the information, you&amp;rsquo;ve made yourself a middleman.
+Most middlemen in DAOs got there by accident.
+They made a proposal and ended up managing the token allocation. They joined a guild and ended up making all the important decisions and updates in meetings.
+Next thing you know, that DAO feels a whole lot like a bad company.</description>
+    </item>
+    
+    <item>
+      <title>Think Fractal</title>
+      <link>https://daoistry.com/mindsets/fractal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/mindsets/fractal/</guid>
+      <description>When a bunch of cells make an animal, that&amp;rsquo;s fractals. When a bunch of buildings make a village, that&amp;rsquo;s fractals. And when a bunch of people make an organisation&amp;hellip;
+&amp;hellip; that depends on the organisation.
+There are plenty of examples for decentalised organisations that DAOs can draw from:
+ chapter-based organisations, like the Kiwanis Club, Freemasons and Hell&amp;rsquo;s Angels meetup groups that sprout up in different cities open source projects that come together to build something companies that have decentralised themselves, like Semco, Valve Games, Goretex and Spotify startups that have created best practices for small, remote teams  They all have something in common: they rely on individuals to make the changes to decentralisation.</description>
+    </item>
+    
+    <item>
+      <title>Understanding decentralisation</title>
+      <link>https://daoistry.com/mindsets/decentralisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/mindsets/decentralisation/</guid>
+      <description>One of the big reasons DAOs are leading somewhere new is decentralisation. But this term is often misunderstood.
+Here we&amp;rsquo;ll draw on Vitalik Buterin&amp;rsquo;s essay (he&amp;rsquo;s the founder of Ethereum) , where he clears things up.
+Vitalik distinguishes 3 different types of decentralisation:
+Political - who makes the decisions that affect others autonomy?
+Corporations are politically centralised. The CEO calls the shots. Departments also centralise various decisions that the rest of the company must obey.</description>
+    </item>
+    
+  </channel>
+</rss>

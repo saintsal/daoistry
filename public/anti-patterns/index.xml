@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anti-patterns on DAOistry</title>
+    <link>https://daoistry.com/anti-patterns/</link>
+    <description>Recent content in Anti-patterns on DAOistry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://daoistry.com/anti-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update calls</title>
+      <link>https://daoistry.com/anti-patterns/update-calls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daoistry.com/anti-patterns/update-calls/</guid>
+      <description>Update calls feel easy, but they make too many things hard.
+Update calls lock out everyone who wasn&amp;rsquo;t in the call. This creates a shadow hierarchy, since update information is only shared with people on the call. When update calls become the norm, self-coordination becomes a real pain, because everyone needs to be on so many calls!
+The way out is to update asynchronously.</description>
+    </item>
+    
+  </channel>
+</rss>

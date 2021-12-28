@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Hypnotic Squares | DAOistry</title>
+
+    <meta charset="utf-8">
+    
+    <meta name="description" content="William Kolomyjec was another great pioneer of generative art. This piece, &#34;Hypnotic Squares&#34;, is a great example of recursion in action. The art of DAO">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/syntax-highlighting.css" rel="stylesheet">
+  </head>
+  <body class="tutorial">
+
+    <header>
+  <div class="wrapper">
+    <a class="logo" href="/">DAOistry</a>
+    <div class="links">
+      <a class="practices" href="/practices">anti-patterns</a> • <a class="practices" href="/practices">practices</a> • <a class="mindsets" href="/mindsets">mindsets</a> 
+    </div>
+  </div>
+</header>
+
+
+    <div class="tutorial-post">
+      
+      <div class="tutorial-sidebar">
+
+        <div id="tutorial-code" class="tutorial-code"></div>
+        
+        <div class="tutorial-send-code">
+          <span>➵</span>
+        </div>
+
+        <iframe class="tutorial-frame" src="/utils/injectable-iframe.html" sandbox="allow-same-origin allow-scripts"></iframe>
+
+      </div>
+
+      <div class="tutorial-content">
+        <h1 id="hypnotic-squares">Hypnotic Squares</h1>
+<p><a href="http://dada.compart-bremen.de/item/agent/644">William Kolomyjec</a>&rsquo;s work is again reminiscent of some of the old school generative works, focusing on simple shapes, tiling and recursion.</p>
+<p>Today we&rsquo;re going to replicate a piece of his called Hypnotic Squares.</p>
+<p>The only HTML we have on the page is a <code>&lt;canvas&gt;</code> element at 320×320 pixels.</p>
+<p>As usual, here is our initial setup. Using <code>window.devicePixelRatio</code> to scale the canvas on retina screens, and setting our canvas size.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Now, to create this piece we&rsquo;re going to need to set a few variables, and then we will create our draw function. The goal will be to create a function that uses <code>recursion</code> to draw squares inside itself, until they reach a certain minimum size.</p>
+<p>If you don&rsquo;t know much about recursion, that&rsquo;s totally ok! I will explain it as we go through.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>The <code>steps</code> in the draw function, is how many times our square will recurse inwards. It&rsquo;s a fixed variable now, but we will be able to make it a little bit more random later.</p>
+<p>The <code>finalSize</code> is the smallest square we want to draw, when our squares start to get this small, we&rsquo;ll stop drawing.</p>
+<p>The <code>startSteps</code> will help us calculate a smaller and smaller square as we recurse.</p>
+<p>Let&rsquo;s make our <code>draw</code> function draw. We&rsquo;ll start with just a plain square.</p>
+<!-- raw HTML omitted -->
+<p>Now we have a single square, its time for some recursion. This means that the draw function will be calling itself over and over, until we reach a certain condition, this condition is pretty important, otherwise the loop will never end. We will use <code>steps</code> and count down.</p>
+<!-- raw HTML omitted -->
+<p>Woohoo, recursion! So let me explain whats going on above.</p>
+<ul>
+<li><code>newSize</code> is being calculated based on how many steps our square has remaining.</li>
+<li><code>newX</code> &amp; <code>newY</code> is being calculated based on making sure the new square fits inside the previous one.</li>
+<li>And then, the final parameter in the <code>draw</code> function is <code>steps - 1</code> which means we step closer and closer to 0.</li>
+</ul>
+<p>So you can see now if we change the <code>startSteps</code> variable, to a few differnt variations, we&rsquo;ll have different degrees of recursion.</p>
+<!-- raw HTML omitted -->
+<p>or</p>
+<!-- raw HTML omitted -->
+<p>We can see that randomizing this value will give us different outputs, but lets add a little more to it first. You can see the two variables <code>xMovement</code> and <code>yMovement</code>&hellip; we want to use these variables to &ldquo;tilt&rdquo; the squares in a certain direction.</p>
+<p>First, I&rsquo;ll update the draw call, to represent this, with <code>xMovement</code> and <code>yMovement</code> both being 1. We will want this to tilt the square to the bottom right.</p>
+<!-- raw HTML omitted -->
+<p>And here&rsquo;s what we will do, to calculate this.</p>
+<!-- raw HTML omitted -->
+<p>This looks a little complex&hellip; we&rsquo;re calculating how big each step is going to be (difference between the bigger and smaller square sizes) and then dividing it by how many steps are left. The 2 is to make sure that the new square never quite touches the line of the previous one.</p>
+<p>Now, if we change around our draw function, you&rsquo;ll be able to see how it moves around and renders in different ways.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Ok, now that we have our draw function down, we&rsquo;re going to do something we did in our very first <a href="/tutorials/tiled-lines">tiled lines</a> tutorial&hellip; and that is, tile!</p>
+<p>Firstly some variables, about how often we will tile our squares, and a little offset to center the square a little more&hellip; we will make the final size smaller, and calculate <code>tileStep</code> to be the width of our <code>canvas</code> minus the <code>offset</code>divided by how many squares we want (<code>7</code>). And then, a final array of all the possible directions we can go in <code>-1, 0 &amp; 1</code></p>
+<!-- raw HTML omitted -->
+<p>Yep, it looks broken, because we&rsquo;re now going to use these variables to draw the tiles across our screen.</p>
+<!-- raw HTML omitted -->
+<p>Now we&rsquo;re really set up to play. We can add a random amount of steps.</p>
+<!-- raw HTML omitted -->
+<p>And some random directions!</p>
+<!-- raw HTML omitted -->
+<p>And there we have it! Hypnotic Squares. This is a great example of some beautiful use of recursion, as well as the kind of art piece that can easily be expanded with some color, especially on a slightly larger canvas.</p>
+
+        <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+  <input type="hidden" name="data" value='{}'>
+  ↪ You can edit the code above, and have it run by pressing the arrow between the code and demo, but if you like, you can also play around a little with this code <input type="submit" id="codepen-prefil" value="on CodePen">
+</form>
+      </div>
+    </div>
+    
+    <footer>
+	<div class="wrapper">
+		<div class="links">
+			<a href="/credits/" target="_blank" rel="noopener noreferrer">Credits</a>
+		</div>
+	</div>
+</footer>
+
+
+    <script src="/js/tmd.js"></script>
+    <script src="/js/codepen-prefil.js"></script>
+    <script src="/js/favicon.js"></script>
+    <script src="/js/libs/monaco-editor/min/vs/loader.js"></script>
+
+    <script>
+
+        require.config({ paths: { 'vs': '/js/libs/monaco-editor/min/vs' }});
+        var tmd, editor;
+
+        require(['vs/editor/editor.main'], function() {
+          editor = monaco.editor.create(document.querySelector('#tutorial-code'), {
+            value: [
+              '// These tutorials are using tutorial markdown (https://github.com/tholman/tutorial-markdown)',
+              '// start scrolling, and we\'ll',
+              '// write the code.'
+            ].join('\n'),
+            lineNumbersMinChars: 2,
+            scrollBeyondLastLine: false,
+            language: 'javascript',
+            fontSize: 10,
+            minimap: { enabled: false },
+            hover: false,
+            occurrencesHighlight: false
+          })
+
+          editor.getModel().updateOptions({ tabSize: 2 })
+
+          tmd = new TutorialMarkdown({
+            editor: {
+              editor: editor,
+               api: monaco
+             },
+             iframe: document.querySelector('.tutorial-frame'),
+             markdownSelector: {
+               blockSelector: '.tmd-trigger', 
+               codeSelector: '.lntd:nth-child(2) .language-js' 
+             }
+          })
+        })
+
+        document.querySelector('.tutorial-send-code').addEventListener('click', function() {
+          tmd.sendCode()
+        })
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121043299-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121043299-1');
+</script>
+  </body>
+</html>

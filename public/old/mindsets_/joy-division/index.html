@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Joy Division | DAOistry</title>
+
+    <meta charset="utf-8">
+    
+    <meta name="description" content="We&#39;ve all seen this album cover in one form or another. Come and see how we can make a simple version of it. The art of DAO">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/syntax-highlighting.css" rel="stylesheet">
+  </head>
+  <body class="tutorial">
+
+    <header>
+  <div class="wrapper">
+    <a class="logo" href="/">DAOistry</a>
+    <div class="links">
+      <a class="practices" href="/practices">anti-patterns</a> • <a class="practices" href="/practices">practices</a> • <a class="mindsets" href="/mindsets">mindsets</a> 
+    </div>
+  </div>
+</header>
+
+
+    <div class="tutorial-post">
+      
+      <div class="tutorial-sidebar">
+
+        <div id="tutorial-code" class="tutorial-code"></div>
+        
+        <div class="tutorial-send-code">
+          <span>➵</span>
+        </div>
+
+        <iframe class="tutorial-frame" src="/utils/injectable-iframe.html" sandbox="allow-same-origin allow-scripts"></iframe>
+
+      </div>
+
+      <div class="tutorial-content">
+        <h1 id="joy-division">Joy Division</h1>
+<p>The Joy Division album cover has a <a href="https://blogs.scientificamerican.com/sa-visual/pop-culture-pulsar-origin-story-of-joy-division-s-unknown-pleasures-album-cover-video/">cool history</a>, and is a beautiful example of data driven art. In this tutorial we&rsquo;re going to recreate it in a more simplistic form.</p>
+<p>We&rsquo;re going to do this with the JavaScript canvas. No extra APIs. The only HTML we have on the page is a <code>&lt;canvas&gt;</code> element at 320×320 pixels.</p>
+<p>Let&rsquo;s kick things off with some initial setup. You&rsquo;re not going to see anything render here, because these are the primary lines to setting up the canvas and context which we use to draw. We will also set the size of the canvas and adjust it based on the user&rsquo;s device pixel ratio, or pixel density. This ensures that the final result is crisp on all monitors.</p>
+<!-- raw HTML omitted -->
+<p>This gives us access to the <code>context</code> which allows us to draw on the page.</p>
+<p>Our initial plan of attack here is to create the lines on the canvas, which will be a series of points. From there, we will start to displace the points randomly to give us the effect we desire.</p>
+<p>Let&rsquo;s get some base variables in here: <code>step</code>, which will be the steps in pixels between our points, and an array called <code>lines</code>, which is going to hold our lines.</p>
+<!-- raw HTML omitted -->
+<p>Now we&rsquo;ll write a function to prepare our lines. A line will consist of a series of points with <code>x</code> and <code>y</code> properties.</p>
+<!-- raw HTML omitted -->
+<p>Our next step will be to draw these lines. Again, we&rsquo;ll start simple to get something on the page, and we will expand on it later.</p>
+<!-- raw HTML omitted -->
+<p>Amazing, we have lines on our canvas! Now, the next job we have is to displace them. We will do that up in our first loop, where we create the points.</p>
+<!-- raw HTML omitted -->
+<p>Ahh, there we have it. Our lines are now jumping all over the place, just as planned. The next step is to get them to distort in the areas that we want—namely, more distorted towards the center, and less towards the edges. We are going to do this with an absolute function.</p>
+<!-- raw HTML omitted -->
+<p>We can see here that we&rsquo;ve made something a little messy and that we can see through each line, which doesn&rsquo;t look great. We&rsquo;re going to use a <code>fill</code> with a <code>globalCompositeOperation</code> of <code>destination-out</code> to fix this.</p>
+<p>Global composite operations allow us to draw to the canvas in very interesting ways. For our case, we want to essentially &ldquo;erase&rdquo; our new shape from the existing lines above it. The <code>destination-out</code> mode works great for erasing from a canvas. Check out <a href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation">this article</a> to learn more about canvas global composite operations.</p>
+<!-- raw HTML omitted -->
+<p>We&rsquo;re getting so close now. The only piece left is to make the lines much less jagged. To do this, we&rsquo;re going to use quadratic curves, and create control points between each one to create a smooth path. The final <code>quadraticCurveTo</code> is the last joining step.</p>
+<!-- raw HTML omitted -->
+<p>This looks great! Now we just need a little breathing room on top. Let&rsquo;s prevent the top lines from going off the top of the canvas. We can do this by starting the loop at a higher index to skip the drawing of a few of the top lines.</p>
+<!-- raw HTML omitted -->
+<p>And there we have it! You can mess with the steps, and styles and colors for a bunch of different results. All are exciting!</p>
+
+        <form action="https://codepen.io/pen/define" method="POST" target="_blank">
+  <input type="hidden" name="data" value='{}'>
+  ↪ You can edit the code above, and have it run by pressing the arrow between the code and demo, but if you like, you can also play around a little with this code <input type="submit" id="codepen-prefil" value="on CodePen">
+</form>
+      </div>
+    </div>
+    
+    <footer>
+	<div class="wrapper">
+		<div class="links">
+			<a href="/credits/" target="_blank" rel="noopener noreferrer">Credits</a>
+		</div>
+	</div>
+</footer>
+
+
+    <script src="/js/tmd.js"></script>
+    <script src="/js/codepen-prefil.js"></script>
+    <script src="/js/favicon.js"></script>
+    <script src="/js/libs/monaco-editor/min/vs/loader.js"></script>
+
+    <script>
+
+        require.config({ paths: { 'vs': '/js/libs/monaco-editor/min/vs' }});
+        var tmd, editor;
+
+        require(['vs/editor/editor.main'], function() {
+          editor = monaco.editor.create(document.querySelector('#tutorial-code'), {
+            value: [
+              '// These tutorials are using tutorial markdown (https://github.com/tholman/tutorial-markdown)',
+              '// start scrolling, and we\'ll',
+              '// write the code.'
+            ].join('\n'),
+            lineNumbersMinChars: 2,
+            scrollBeyondLastLine: false,
+            language: 'javascript',
+            fontSize: 10,
+            minimap: { enabled: false },
+            hover: false,
+            occurrencesHighlight: false
+          })
+
+          editor.getModel().updateOptions({ tabSize: 2 })
+
+          tmd = new TutorialMarkdown({
+            editor: {
+              editor: editor,
+               api: monaco
+             },
+             iframe: document.querySelector('.tutorial-frame'),
+             markdownSelector: {
+               blockSelector: '.tmd-trigger', 
+               codeSelector: '.lntd:nth-child(2) .language-js' 
+             }
+          })
+        })
+
+        document.querySelector('.tutorial-send-code').addEventListener('click', function() {
+          tmd.sendCode()
+        })
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121043299-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121043299-1');
+</script>
+  </body>
+</html>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Olds on DAOistry</title>
+    <link>https://daoistry.com/old/</link>
+    <description>Recent content in Olds on DAOistry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 May 2021 10:24:00 -0400</lastBuildDate><atom:link href="https://daoistry.com/old/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hours of Dark</title>
+      <link>https://daoistry.com/old/mindsets_/hours-of-dark/</link>
+      <pubDate>Thu, 13 May 2021 10:24:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/hours-of-dark/</guid>
+      <description>Hours of Dark In this tutorial, we are going to recreate the look of a print by Accept &amp;amp; Proceed called Hours of Dark 2011. All the strokes in the grid represent a day, their width proportional to the hours of darkness and their orientation defined by the angle of the sunset.
+Here is our initial setup with a single &amp;lt;canvas&amp;gt; element, using window.devicePixelRatio to scale it on retina screens.</description>
+    </item>
+    
+    <item>
+      <title>Math.random(3) - Chess</title>
+      <link>https://daoistry.com/old/episodes/random-chess/</link>
+      <pubDate>Mon, 15 Feb 2021 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/random-chess/</guid>
+      <description>Chess! Tim and Ruth explore the idea of learning something new, and the difficulties you have when you have to start from scratch. Looking at the steps you have to go through to become good at something, including figuring out where you&amp;rsquo;re bad at it, and finding out where to improve.</description>
+    </item>
+    
+    <item>
+      <title>Matt DesLauriers</title>
+      <link>https://daoistry.com/old/episodes/matt-deslauriers/</link>
+      <pubDate>Sat, 21 Nov 2020 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/matt-deslauriers/</guid>
+      <description>Matt DesLauriers Ruth and Tim speak to artist &amp;amp; creative coder Matt Delauries about his process, goals when creating, and all things generative art.!
+For those that don&amp;rsquo;t know Matt, his open-source code around generative art is a great place to start, as well as his many many conference talks and workshops, and of course all the beautiful beautiful art.</description>
+    </item>
+    
+    <item>
+      <title>Sharell Bryant</title>
+      <link>https://daoistry.com/old/episodes/sharell-bryant/</link>
+      <pubDate>Thu, 06 Aug 2020 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/sharell-bryant/</guid>
+      <description>Sharell Bryant! Ruth and Tim sit down with the very talented Sharell Bryant! We talk about Sharell&amp;rsquo;s stunning audio explorations on the web. As well as keeping motivated and on track with side projects, different ways to learn and grow, which tools you can utilize to help along the way!
+For those that don&amp;rsquo;t know her, Sharell Bryant is a programmer and singer-songwriter in NYC interested in exploring the intersection of art, technology, and education.</description>
+    </item>
+    
+    <item>
+      <title>Algorithms</title>
+      <link>https://daoistry.com/old/episodes/algorithms/</link>
+      <pubDate>Sat, 21 Mar 2020 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/algorithms/</guid>
+      <description>Algorithms Aside from being the word that everyone says when they don&amp;rsquo;t want to explain what the code is doing, algorithms are one of the backbones of generative art. Join us, as we dissect some of the most common algorithms in generative art.
+Full transcription incoming!</description>
+    </item>
+    
+    <item>
+      <title>Math.random(2) - Creativity</title>
+      <link>https://daoistry.com/old/episodes/creativity/</link>
+      <pubDate>Wed, 05 Feb 2020 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/creativity/</guid>
+      <description>Creativity Another random chat where Ruth and Tim find themselves deeply off our intended topic, but keep exploring and surfacing ideas and thoughts we have about Creativity.
+Full transcription incoming!</description>
+    </item>
+    
+    <item>
+      <title>Jake Albaugh</title>
+      <link>https://daoistry.com/old/episodes/jake-albaugh/</link>
+      <pubDate>Sun, 22 Dec 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/jake-albaugh/</guid>
+      <description>Jake Albaugh! Jake&amp;rsquo;s projects expand across a broad range of topics with the web in common. Its a blast talking to him, and going over some of the weird and wonderful creations he&amp;rsquo;s made.
+Full transcription incoming!</description>
+    </item>
+    
+    <item>
+      <title>Tooling</title>
+      <link>https://daoistry.com/old/episodes/tooling/</link>
+      <pubDate>Wed, 20 Nov 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/tooling/</guid>
+      <description>Lets talk about random Tim and Ruth have a blast talking about the different tools and techniques in generative art, including some of the history behind them.
+Full transcription incoming!</description>
+    </item>
+    
+    <item>
+      <title>Math.random(1)</title>
+      <link>https://daoistry.com/old/episodes/random/</link>
+      <pubDate>Thu, 10 Oct 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/random/</guid>
+      <description>Lets talk about random Random numbers are everywhere in generative art, and everywhere in coding. There&amp;rsquo;s so many ways to approach this topic, so buckle up and have a listen to our take.
+Full transcription incoming!</description>
+    </item>
+    
+    <item>
+      <title>Charlie Gleason</title>
+      <link>https://daoistry.com/old/episodes/charlie-gleason/</link>
+      <pubDate>Sun, 29 Sep 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/charlie-gleason/</guid>
+      <description>Amazing guest, Charlie Gleason! Our first guest! The talented Charlie Gleason joins us and chats about his journey into creative coding and the things he has built. All the way through Actionscript, sound engineering, design and of course there&amp;rsquo;s some generative art in there!
+Be sure to check out Charlie&amp;rsquo;s Website, and follow him on Twitter
+&amp;ndash;
+Ruth: Charlie How are you?
+Charlie: I&amp;rsquo;m very well, how are you?
+And I got some friends and I&amp;rsquo;m sorry if they are listening because they did their best, but the end product like was not something that was gonna work.</description>
+    </item>
+    
+    <item>
+      <title>Generative Art and Creative Code</title>
+      <link>https://daoistry.com/old/episodes/generative-art-and-creative-code/</link>
+      <pubDate>Thu, 19 Sep 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/generative-art-and-creative-code/</guid>
+      <description>Generative art, creative code, and the world around us! Tim and Ruth jump right into creative code and generative art, this episode we talk about the what, when and why&amp;rsquo;s.
+&amp;ndash;
+Tim: In a non-nonphysical form. I&amp;rsquo;ve got some history stuff here. New tendencies exhibitions. So this is the first exhibitions that, this was the first series of exhibitions that brought computers or coding specifically into the art forms that they were displaying.</description>
+    </item>
+    
+    <item>
+      <title>Introducing the Generative Art Podcast</title>
+      <link>https://daoistry.com/old/episodes/introducing-the-generative-art-podcast/</link>
+      <pubDate>Sun, 15 Sep 2019 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/episodes/introducing-the-generative-art-podcast/</guid>
+      <description>Introducing our Generative Art Podcast! In this episode Ruth and Tim get to talking about what they want to get out of this podcast, where we want to take it, and preaching the good word of creative code, and generative art.
+&amp;ndash;
+Ruth: Oh yeah.
+Tim: Exactly and yourself.
+Tim: Glass, led lighting, playdough.
+Ruth: Cool. Thanks Tim.
+Tim: Thanks Ruth. </description>
+    </item>
+    
+    <item>
+      <title>Piet Mondrian</title>
+      <link>https://daoistry.com/old/mindsets_/piet-mondrian/</link>
+      <pubDate>Mon, 27 Aug 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/piet-mondrian/</guid>
+      <description>Piet Mondrian Replicating Piet Mondrian&amp;rsquo;s art with code is no easy task, in fact honestly I&amp;rsquo;d say there&amp;rsquo;s no real way of pinning down his creations entirely with code, they were hand made. That said, we can try to replicate something within the realm of what would have been one of Piet&amp;rsquo;s works&amp;hellip; so that&amp;rsquo;s what we will do in this tutorial&amp;hellip; and yes, we will add the color as well.</description>
+    </item>
+    
+    <item>
+      <title>Hypnotic Squares</title>
+      <link>https://daoistry.com/old/mindsets_/hypnotic-squares/</link>
+      <pubDate>Sun, 26 Aug 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/hypnotic-squares/</guid>
+      <description>Hypnotic Squares William Kolomyjec&amp;rsquo;s work is again reminiscent of some of the old school generative works, focusing on simple shapes, tiling and recursion.
+Today we&amp;rsquo;re going to replicate a piece of his called Hypnotic Squares.
+The only HTML we have on the page is a &amp;lt;canvas&amp;gt; element at 320×320 pixels.
+As usual, here is our initial setup. Using window.devicePixelRatio to scale the canvas on retina screens, and setting our canvas size.</description>
+    </item>
+    
+    <item>
+      <title>Circle Packing</title>
+      <link>https://daoistry.com/old/mindsets_/circle-packing/</link>
+      <pubDate>Thu, 19 Jul 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/circle-packing/</guid>
+      <description>Circle Packing Circle packing is such a fantastic effect, it looks infinitely complex, while also being mathematically beautiful. In this tutorial, we&amp;rsquo;re going to create a circle packing effect&amp;hellip; Interestingly, this is a good example of an effect that isn&amp;rsquo;t particularly efficient to run, but at the same time, will still be very quick!
+As usual, we&amp;rsquo;re going to begin with a small, clean canvas. We will also set the size of the canvas and adjust it based on the user&amp;rsquo;s device pixel ratio, or pixel density.</description>
+    </item>
+    
+    <item>
+      <title>Un Deux Trois</title>
+      <link>https://daoistry.com/old/mindsets_/un-deux-trois/</link>
+      <pubDate>Fri, 06 Jul 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/un-deux-trois/</guid>
+      <description>Un Deux Trois Vera Molnár is a true inspiration to anyone interested in generative art. She is truly one of the very first people to be creating digital art, and one of the most compelling to follow. In this tutorial, we&amp;rsquo;re going to reproduce one of her works, Un Deux Trois.
+We&amp;rsquo;re going to use a somewhat standard setup here, getting our canvas and context which we will use to draw.</description>
+    </item>
+    
+    <item>
+      <title>Triangular Mesh</title>
+      <link>https://daoistry.com/old/mindsets_/triangular-mesh/</link>
+      <pubDate>Thu, 28 Jun 2018 10:24:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/triangular-mesh/</guid>
+      <description>Triangular Mesh This triangular meshing effect is often shown off in libraries with SVG. Today we&amp;rsquo;re going to build it with canvas! It&amp;rsquo;s a great example of how a coordinate system and a little displacement can give clean beautiful effects.
+As usual we begin with a little setup code, a square canvas. We will also set the size of the canvas and adjust it based on the user&amp;rsquo;s device pixel ratio, or pixel density.</description>
+    </item>
+    
+    <item>
+      <title>Cubic Disarray</title>
+      <link>https://daoistry.com/old/mindsets_/cubic-disarray/</link>
+      <pubDate>Thu, 17 May 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/cubic-disarray/</guid>
+      <description>Cubic Disarray Georg Nees&#39; fantastic generative art is a true inspiration. In this tutorial, we&amp;rsquo;re going to build one of his pieces: Cubic Disarray.
+The only HTML we have on the page is a &amp;lt;canvas&amp;gt; element at 320×320 pixels.
+As usual, here is our initial setup. You&amp;rsquo;re not going to see anything render here, because these are the primary lines to setting up the canvas and context which we use to draw.</description>
+    </item>
+    
+    <item>
+      <title>Joy Division</title>
+      <link>https://daoistry.com/old/mindsets_/joy-division/</link>
+      <pubDate>Fri, 04 May 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/joy-division/</guid>
+      <description>Joy Division The Joy Division album cover has a cool history, and is a beautiful example of data driven art. In this tutorial we&amp;rsquo;re going to recreate it in a more simplistic form.
+We&amp;rsquo;re going to do this with the JavaScript canvas. No extra APIs. The only HTML we have on the page is a &amp;lt;canvas&amp;gt; element at 320×320 pixels.
+Let&amp;rsquo;s kick things off with some initial setup. You&amp;rsquo;re not going to see anything render here, because these are the primary lines to setting up the canvas and context which we use to draw.</description>
+    </item>
+    
+    <item>
+      <title>Tiled Lines</title>
+      <link>https://daoistry.com/old/mindsets_/tiled-lines/</link>
+      <pubDate>Fri, 04 May 2018 09:59:00 -0400</pubDate>
+      
+      <guid>https://daoistry.com/old/mindsets_/tiled-lines/</guid>
+      <description>Tiled Lines I want to get going with some of the earliest but simplest programming art out there. I&amp;rsquo;m referring to the 10 PRINT artwork initially coded for the Commodore 64. This work has been featured all over the place, and gives a really stunning effect for something so simple.
+We&amp;rsquo;re going to do this with the JavaScript canvas. No extra APIs today. The only HTML we have on the page is a &amp;lt;canvas&amp;gt; element at 320×320 pixels.</description>
+    </item>
+    
+  </channel>
+</rss>
