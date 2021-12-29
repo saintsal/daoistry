@@ -310,11 +310,13 @@ article:nth-child(odd) + footer {
 }
 
 .tutorial-code {
+  display: none;
   width: 320px;
   height: 280px;
 }
 
 .tutorial-send-code {
+  display: none;
   width: 30px;
   height: 30px;
   font-size: 25px;
