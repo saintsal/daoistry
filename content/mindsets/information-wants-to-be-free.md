@@ -14,6 +14,9 @@ From this perspective, the promise of blockchain has 2 prerequisites:
 
 For DAOs to operate in this wey, **we have to work in the open by default.**  If we don't, we break the prerequisites needed to be a blockchain-based organisation.
 
+## Use ledgers when possible
+In DAOs, [it's only true if it's on chain](./less-trust-more-truth), so strongly favour on-chain communication and resource-sharing. 
+
 ## Communicate in open channels.
 
 In-writing communication hosted on a public forum is open; anyone can see it.
@@ -24,3 +27,5 @@ Synchronous communication (like voice calling) is not open, since it excludes an
 We have to make sure what we say is accessible to strangers, and store our data in resources in places where people can access them without permission.
 
 Any information store that requires asking for access is not open.
+
+

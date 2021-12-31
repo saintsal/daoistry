@@ -16,9 +16,9 @@ If someone never saw a plane before, they'd ask "what kind of bird is that?" or 
 
 With token economies, we still have an economic system, but it isn't a corporate one or even one based on ownership. Our ideas of ownership, shares, control, employment and even of exchangin labour for money or investing capital for personal gain -- they don't quite work here.  Something else is going on.
 
-What tokens enable isn't just a tradable currency or cloud computing. They attract a group of people around a common goal, and align them with an incentive system that's set in their code.  When you buy a token, you trade capital for participation in that token community according to how it's programmed. So yes, it's a tradable currency and code running in the cloud, but it's something quite different from both.
+What tokens enable isn't just a tradable currency or cloud computing. They attract a group of people around a common goal, and align them with a hard-coded incentive system.  When you buy a token, you trade capital for participation in that token community according to how it's programmed. So yes, it's a tradable currency and code running in the cloud, but it's something quite different from both.
 
-Because that code isn't owned by anyone, it's now just something that runs forever as long as that blockchain runs.  Your token doesn't give you shareholder or ownership rights to that code (or anything else), it gives you tokenholder rights to participate. (Those rights are different for every token, but they're set in the token code.)
+Because that code isn't owned by anyone, it's now just something that runs forever as long as that blockchain runs.  Your token doesn't give you shareholder or ownership rights to that code (or anything else), it gives you tokenholder rights to participate. (Those rights are different for every token.)
 
 And we can see a common mistake when people buy and sell tokens, thinking they're somehow buying "shares" in something.  They're not shares in the same way stokes are shares of ownership in a company.
 
@@ -26,10 +26,10 @@ And we can see a common mistake when people buy and sell tokens, thinking they'r
 ## Market valuation of coordination systems
 
 What tokens and stocks have in common is:
-1. Tokens and companies are both coordination systems
-2. Token and company stock prices are both based on what the relevant market dictates, and that price goes up or down depending on how much potential it sees.  
+1. Tokens and companies are both economic coordination systems
+2. Token and company stock prices are both based on what the relevant market dictates, and that price goes up or down depending on how much potential the market sees
 
-In the case of stocks, the price of the stock goes up or down based on how much potential the investor world sees in that company. In the case of tokens, the price fluctuates according to how much potential its participants see in the coordination system it provides.
+In the case of stocks, the price of the stock goes up or down based on how much potential that stock traders see in that company. In the case of tokens, the price fluctuates according to how much potential its participants see in the coordination system it provides.
 
 Laura Lotti explains that the value in a token is largely connected to the community it attracts, normally around a common goal.  So how does a token claim a hold on the value of this community?
 
