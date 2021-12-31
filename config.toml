@@ -1,4 +1,4 @@
-baseURL = "https://daoistry.vercel.app"
+baseURL = "https://daoistry.com"
 languageCode = "en-us"
 title = "DAOistry"
 pygmentsUseClasses = true
