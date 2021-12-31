@@ -49,11 +49,14 @@ So the very very big idea for our society is that tokens provide a way to coordi
 
 This is something different. This is a new kind of affordance, in the same category as a light switch or an app or a company, but different.
 
+
 One big difference we're seeing is how token rules, written in its code, provide a way to coordinate that community, including it's people, capital and effort, towards that shared goal.
 
 People align to a North Star without being an owner, employee or shareholder. It's an economic alignment around a new kind of virtual object that is neither company or app.
 
-Attracting people around a common goal isn't new, but coordinating them with a tradable, functional tokens is very new.  And it's worth something because it enables us to achieve goals that matter to us. 
+When we look a tokens as participation rules laid out as economic incentives, we may not even need human managers to coordinate us.  Coordination through well-designed token economies minimises the need for hierarchical leadership and middle management because the incentives move people towards self-coordination and rewards result-getters rather than owners.
+
+Attracting people around a common goal isn't new, but coordinating them with a tradable, functional tokens is very new.  And it's worth something because it enables us to achieve goals that matter to us, especially goals we find challenging with our current forms of coordination.
 
 We'll leave you with Lotti herself, explaining why we value these systems, even at the start, before they've done anything useful:
 
