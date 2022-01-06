@@ -1,5 +1,7 @@
 ---
 title: The Three Types of Decentralisation
+image: /img/jujujajaki.png
+iama: mindset
 ---
 
 > The opposite of hierarchy isn't flatness, it's autonomy.

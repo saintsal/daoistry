@@ -1,5 +1,7 @@
 ---
 title: Coordination is value
+image: /img/brockmann.png
+iama: mindset
 ---
 
 What's the value in an incentive system that aligns people?
@@ -7,6 +9,12 @@ What's the value in an incentive system that aligns people?
 What's the value of uniting people towards a common cause, that can get things done?
 
 This is a very big idea in society, and one that [Laura Lotti explains](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).  She points out that because tokens are tradable like currency but also runnable like programs, they open completely new ways of organising people.
+
+DAOs are a new form of human coordination, but not because they're decentralised, or because they're open. (Those have happened before. DAOS are a new form of human coordination because they [align people using blockchains](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).
+
+Blockchain code explicitly defines forms of participation, like buy, sell, stake or vote, allowing people to self-coordinate around a common goal.
+
+This creates a new kind of relationship between participants which we're still learning about and evolving.
 
 ## Tokens are a non-corporate paradigm
 

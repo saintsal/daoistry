@@ -1,5 +1,7 @@
 ---
 title: Less Trust, More Truth
+image: /img/swarmilator.png
+iama: mindset
 ---
 
 ["Less Trust, More Truth"](https://polkadot.network/Polkadot-lightpaper.pdf) is a popular axiom in blockchain communities, and it's even used as the mean slogan for Polkadot.

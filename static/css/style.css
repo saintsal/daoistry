@@ -207,6 +207,14 @@ article:nth-child(odd) + footer {
   height: 400px;
 }
 
+.post-image {
+  display: block;
+  margin-top: 40px;
+  margin-right: -120px;
+  margin-left: -120px;
+  width: 400px;
+  height: 400px;
+}
 .article-content {
   background: rgba(0, 0, 0, 0.85);
   font-weight: lighter;
@@ -266,11 +274,13 @@ article:nth-child(odd) + footer {
 }
 
 .tutorial-sidebar {
+  z-index: -100;
   justify-content: center;
   align-items: flex-end;
 }
 
 .tutorial-content {
+  z-index: 1;
   padding: 20px;
   padding-bottom: 50vh;
   width: 560px;
@@ -327,10 +337,10 @@ article:nth-child(odd) + footer {
 
 .tutorial-frame {
   border-top: 20px solid;
-  background: #f9f9f9;
   height: 320px;
   width: 320px;
   border: 0px;
+  overflow: hidden;  /*remove scrollbar when empty */
 }
 
 .chroma {
@@ -476,7 +486,19 @@ details .content {
   }
 
   .tutorial-sidebar {
-    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    filter: opacity(10%);
+  }
+
+  .post-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+
   }
 
   .tutorial-content {
