@@ -10,7 +10,7 @@ What's the value in an incentive system that aligns people?
 
 What's the value of uniting people towards a common cause, that can get things done?
 
-This is a very big idea in society, and one that [Laura Lotti explains](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).  She points out that because tokens are tradable like currency but also runnable like programs, they open completely new ways of organising people.
+This is a very big idea in society, [Laura Lotti explains how blockchain tokenisation is opening up new ways to do this](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).  She points out that because tokens are tradable like currency but also runnable like programs, they open completely new ways of organising people.
 
 DAOs are a new form of human coordination, but not because they're decentralised, or because they're open. (Those have happened before. DAOS are a new form of human coordination because they [align people using blockchains](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).
 
@@ -36,12 +36,13 @@ And we can see a common mistake when people buy and sell tokens, thinking they'r
 ## Market valuation of coordination systems
 
 What tokens and stocks have in common is:
+
 1. Tokens and companies are both economic coordination systems
 2. Token and company stock prices are both based on what the relevant market dictates, and that price goes up or down depending on how much potential the market sees
 
 In the case of stocks, the price of the stock goes up or down based on how much potential that stock traders see in that company. In the case of tokens, the price fluctuates according to how much potential its participants see in the coordination system it provides.
 
-Laura Lotti explains that the value in a token is largely connected to the community it attracts, normally around a common goal.  So how does a token claim a hold on the value of this community?
+The value in a token is largely connected to the community it attracts, normally around a common goal.  So how does a token claim a hold on the value of this community?
 
 ## Affordances
 
