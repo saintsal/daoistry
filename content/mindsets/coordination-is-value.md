@@ -4,6 +4,8 @@ image: /img/brockmann.png
 iama: mindset
 ---
 
+# Coordination is value
+
 What's the value in an incentive system that aligns people?
 
 What's the value of uniting people towards a common cause, that can get things done?
