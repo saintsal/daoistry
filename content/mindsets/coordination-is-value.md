@@ -10,21 +10,33 @@ What's the value in an incentive system that aligns people?
 
 What's the value of uniting people towards a common cause, that can get things done?
 
-This is a very big idea in society, [Laura Lotti explains how blockchain tokenisation is opening up new ways to do this](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).  She points out that because tokens are tradable like currency but also runnable like programs, they open completely new ways of organising people.
+This is a very big idea in society, involving politics, economics, organisational structures are more. [Laura Lotti explains how blockchain tokenisation is opening up new ways to do this](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).  She points out that because tokens are tradable like currency but also runnable like programs, they open completely new ways of organising people.
 
-DAOs are a new form of human coordination, but not because they're decentralised, or because they're open. (Those have happened before. DAOS are a new form of human coordination because they [align people using blockchains](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).
+Blockchain tokens explicitly define forms of participation, like buy, sell, stake or vote, allowing people to self-coordinate around a common goal.
 
-Blockchain code explicitly defines forms of participation, like buy, sell, stake or vote, allowing people to self-coordinate around a common goal.
+This makes DAOs are a new form of human coordination. Not because they're decentralised, or because they're open. (Those have happened before.) DAOS are a new form of human coordination because they **align people using blockchains**.
 
-This creates a new kind of relationship between participants which we're still learning about and evolving.
+This creates a new kind of relationship between DAO participants which we're still learning about and evolving.
 
 ## Tokens are a non-corporate paradigm
 
 Since this is a paradigm shift, we need to be careful about what assumptions from the current paradigm block us from seeing the new one. 
 
-If someone never saw a plane before, they'd ask "what kind of bird is that?" or maybe "what kind of train is that?" And we could call a plane a bird-train, but we'd really be missing the point. We wouldn't get very far trying to understand planes if we kept thinking of them in terms of birds or trains. Clearly, something else is going on.
+If someone never saw a plane before, they'd ask:
 
-With token economies, we still have an economic system, but it isn't a corporate one or even one based on ownership. Our ideas of ownership, shares, control, employment and even of exchangin labour for money or investing capital for personal gain -- they don't quite work here.  Something else is going on.
+>" What kind of bird is that?" 
+
+or maybe 
+
+> "What kind of train is that?" 
+
+And we could call a plane a bird-train, but we'd really be missing the point. 
+
+We wouldn't get very far trying to understand planes if we kept thinking of them in terms of birds or trains. Clearly, something else is going on.
+
+## Token economies are not based on the trade of goods or services
+
+With token economies, we still have an economic system, but it isn't a corporate one or even a commercial one.  Our ideas of shares, ownership,control, employment and even of exchanging labour for money or investing capital for personal gain -- they don't quite work here.  Something else is going on.
 
 What tokens enable isn't just a tradable currency or cloud computing. They attract a group of people around a common goal, and align them with a hard-coded incentive system.  When you buy a token, you trade capital for participation in that token community according to how it's programmed. So yes, it's a tradable currency and code running in the cloud, but it's something quite different from both.
 
@@ -38,9 +50,9 @@ And we can see a common mistake when people buy and sell tokens, thinking they'r
 What tokens and stocks have in common is:
 
 1. Tokens and companies are both economic coordination systems
-2. Token and company stock prices are both based on what the relevant market dictates, and that price goes up or down depending on how much potential the market sees
+2. Token and company stock prices are both based on what the market dictates, and that price goes up or down depending on how much potential the market sees.
 
-In the case of stocks, the price of the stock goes up or down based on how much potential that stock traders see in that company. In the case of tokens, the price fluctuates according to how much potential its participants see in the coordination system it provides.
+In the case of stocks, the price of the stock goes up or down based on how much potential that stock traders see in that company. In the case of tokens, the price fluctuates according to how much potential its participants see in the coordination system it provides them.
 
 The value in a token is largely connected to the community it attracts, normally around a common goal.  So how does a token claim a hold on the value of this community?
 
@@ -50,7 +62,7 @@ In the same way we know a switch on the wall controls the movement of electricit
 
 A light switch is a physical object, and an app in a phone is a virtual object.  And yet, we learn that these little boxes on our walls or on our phones have a deeper reach.   In design and cognitive science terms, this recognition that we can manipulate one thing with another is called an "affordance".  
 
-Digital objects, as affordances, only exist when enough humans agree to the systems.  If the drivers didn't agree to participate and your friends didn't think of the app when they wanted to go somewhere, that app wouldn't be an object in anyone's mind.  It would just be software that nobody ever runs, just a square icon on a phone that never gets pressed.
+Digital objects, as affordances, only exist when enough humans agree to the systems.  If the drivers didn't agree to participate and your friends didn't think of the app when they wanted to go somewhere, that app wouldn't do anything, and it wouldn't be an object in anyone's mind.  It would just be software that nobody ever runs, a square icon on a phone that never gets pressed.
 
 Once we all start to agree on how this thing works, it becomes a new type of object, and "affords" us control of effort and resources.
 
@@ -65,9 +77,9 @@ One big difference we're seeing is how token rules, written in its code, provide
 
 People align to a North Star without being an owner, employee or shareholder. It's an economic alignment around a new kind of virtual object that is neither company or app.
 
-When we look a tokens as participation rules laid out as economic incentives, we may not even need human managers to coordinate us.  Coordination through well-designed token economies minimises the need for hierarchical leadership and middle management because the incentives move people towards self-coordination and rewards result-getters rather than owners.
+When we look at tokens as *participation rules laid out as economic incentives*, we may not even need human managers to coordinate us.  Coordination through well-designed token economies minimises the need for hierarchical leadership and middle management because the incentives move people towards self-coordination and rewards the result-getters.
 
-Attracting people around a common goal isn't new, but coordinating them with a tradable, functional tokens is very new.  And it's worth something because it enables us to achieve goals that matter to us, especially goals we find challenging with our current forms of coordination.
+Attracting people around a common goal isn't new, but coordinating them with a tradable, functional tokens is very new.  And it's worth something because it enables us to achieve goals that matter to us, especially goals we find challenging with our current forms of coordination. We are all aware of the downsides of corporate cultures, NGO success rates and government incompetence. Well, blockchains and DAOS add a new tool to our toolbelt.
 
 We'll leave you with Lotti herself, explaining why we value these systems, even at the start, before they've done anything useful:
 
@@ -82,3 +94,11 @@ While these are some big ideas, they give us very simple rules in DAOS:
 - If you believe in it, **buy in** and participate
 - If you believe it will increase in potential, you **stake in** (where you can't sell for a set period, and gain more)
 - if you don't believe in it, **you sell** and stop participating
+
+
+## Put this in action
+- [Start a squad](/practices/squads/)
+- [Run an Accordance Dialogue to find people to align to](/practices/accordance-dialogue/)
+- [Start your own DAO](https://dauhaus.club)
+
+

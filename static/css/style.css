@@ -287,6 +287,10 @@ article:nth-child(odd) + footer {
   color: #222;
 }
 
+.tutorial-content a {
+  color: #8f146e;
+}
+
 .tutorial-content h1 {
   font-size: 28px;
 }
@@ -295,18 +299,17 @@ article:nth-child(odd) + footer {
   background: #f9f9f9;
   display: block;
   margin-bottom: 20px;
-  max-width: 320px;
   width: 100%;
 }
 
 .tutorial-content p {
   margin-bottom: 20px;
-  line-height: 30px;
-  font-size: 24px;
+  line-height: 24px;
+  font-size: 20px;
 }
 
 .tutorial-content li {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 14px;
 }
 
@@ -535,6 +538,7 @@ details .content {
 
 }
 
+/*
 blockquote {
     position: relative;
 }
@@ -549,4 +553,25 @@ blockquote:before {
     filter: url(#marker-shape);
     left: -1em ; 
     padding: 0.2em 0 0.2em 2em ;
+}
+*/
+
+blockquote p {
+  display: inline;
+  }
+blockquote {
+  position: relative;
+    line-height: 1.35;
+    box-decoration-break: clone;
+    background: #ffcae7; 
+    padding: .5rem 1rem;
+    filter: url('#goo');
+    margin-block-start: auto;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+blockquote:focus {
+    outline: 0;
 }
