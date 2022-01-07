@@ -14,6 +14,13 @@
   <body class="practices">
     {{ partial "header.html" . }}
     
+    <article>
+      <div>
+        <span class="practices">Practices:</span> 
+        <span>What DAO practices are enabling decentralised coordination?</span>
+      </div>
+    </article>
+
       {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") (index .Site.Params "paginate" | default 100) }}
       {{ if gt $paginator.TotalPages 0 }}
         {{ range $index, $page := $paginator.Pages }}

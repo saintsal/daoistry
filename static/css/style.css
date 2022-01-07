@@ -138,11 +138,11 @@ footer a {
   border-bottom: 2px solid;
 }
 
-.links a.practices {
+a.practices, span.practices {
   color: #5166d5;
 }
 
-.links a.mindsets {
+a.mindsets, span.mindsets {
   color: #05cf9a;
 }
 
