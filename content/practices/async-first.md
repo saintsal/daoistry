@@ -15,7 +15,8 @@ Mindsets applied:
 
 A big problem in DAOs is meeting overload, but a few have found their way around this.
 
-MakerDAO has a ["forum first" communication culture](https://blog.makerdao.com/why-the-makerdao-forum-is-the-heart-of-the-maker-community/)
+MakerDAO has a ["forum first" communication culture](https://blog.makerdao.com/why-the-makerdao-forum-is-the-heart-of-the-maker-community/):
+
 > For decentralized organizations that are community-governed, such as MakerDAO, a primary hub exists for the most important discussions concerning the organization, especially conversations around governance. For MakerDAO, that hub is the Maker Forum. 
 
 With most DAOs use forums mainly for soft votes and treasury applications, Maker uses it to discuss much more: risks get surfaced, integrations discussed, and Core Unit's communicate there.
