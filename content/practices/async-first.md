@@ -40,13 +40,13 @@ It also allows communication to happen more quickly:
 
 > Communication shouldn't require schedule synchronization. Calendars have nothing to do with communication. Writing, rather than speaking or meeting, is independent of schedule and far more direct.
 
-## Uniswap's governance cut off Discord
+## Uniswap's governance slowly detached from Discord 
 
-Uniswap decentralisation attempts assumed that their Discord chat community would be where decentralisation happened.  But the people making the effective governance decisions ended up on their forum.  Discord ended up being an isolated community, used mainly for support, with increasingly frustrated people wondering why their voice wasn't being heard.
+Uniswap decentralisation attempts assumed that their Discord chat community would be where decentralisation happened.  But [the people making the effective governance decisions ended up on their forum only](https://otherinter.net/research/uniswap-offchain-report/).  Discord ended up being an isolated community, used mainly for support, with increasingly frustrated people wondering why their voice wasn't being heard.
 
 
 ## Forum make time for real work
-Source Institute's [Speedboat Armada](https://source.institute/collaboration/decentralised-agile/#communication) emerged from similar splits.  Like MakerDAO, they ended up using their forum as the **single source of truth**. 
+Source Institute's [Speedboat Armada](https://source.institute/collaboration/decentralised-agile/#communication) emerged to solve similar problems.  Like MakerDAO, they ended up using their forum as the **single source of truth**. 
 
 > Whereas on chat, discussions are pretty much over when they scroll off the page. Without that context, restarting a discussion that took place a few days ago is difficult. Chat content basically dissolves. Plus the busier chat gets, the more people feel pressure to live in chat, so everyone ends up hating it.
 
