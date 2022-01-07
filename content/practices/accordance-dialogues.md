@@ -5,6 +5,7 @@ iama: practice
 ---
 
 Mindsets applied: 
+
 - [Coordination is value](/mindsets/coordination-is-value/)
 - [Seek accord, not permission](/mindsets/permissionless/)
 - [Decentralisation](/mindsets/decentralisation/)
@@ -12,10 +13,10 @@ Mindsets applied:
 # Accordance Dialogues
 
 Accordance Dialogues are used to develop proposals that benefit from:
+
 - group accordance, consensus, or near-consensus
 - attention to reveal unforeseen issues and offer improvements
 
-## Communication style
 Accordance Dialogues are designed to work in async communication (on a forum) or in a group call (sync).  For big issues requiring consideration, they're usually used async first, and fall back to group calls if needed.  They're also useful for group calls, when a facilitator wants to move the group towards tangible action.
 
 ## Process
@@ -43,7 +44,7 @@ After these issues are discussed, someone must *suggest another (modified in par
 ### 5. Repeat
 The process is repeated with modified proposals, allowing for iterative improvements.  The idea is to explore paths towards consensus by revealing and addressing critical concerns.
 
-## Conclusion
+### 6. Conclusion
 In the end, the Proposer may choose to withdraw their proposal, or to proceed as a Benevolent Dictator, taking on-board the concerns they've heard.
 
 The Accordance Dialogue always ends with the Proposer restating their final proposal (or withdrawal.)
