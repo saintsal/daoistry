@@ -1,10 +1,10 @@
 ---
-title: Coordination is value
+title: Blockchains as coordination systems
 image: /img/brockmann.png
 iama: mindset
 ---
 
-# Coordination is value
+# Blockchains as coordination systems
 
 What's the value in an incentive system that aligns people? What's the value of uniting people towards a common cause ?
 
@@ -15,6 +15,7 @@ Blockchain tokens explicitly define forms of participation, like buy, sell, stak
 This makes DAOs are a new form of human coordination. Not because they're decentralised, or because they're open. (Those have happened before.) DAOS are a new form of human coordination because they **align people using blockchains**.
 
 This creates a new kind of relationship between DAO participants which we're still learning about and evolving.
+
 
 ## Tokens are a non-corporate paradigm
 
@@ -30,7 +31,7 @@ or maybe
 
 And we could call a plane a bird-train, but we'd really be missing the point. 
 
-We wouldn't get very far trying to understand planes if we kept thinking of them in terms of birds or trains. Clearly, something else is going on.
+We wouldn't get very far trying to understand planes if we kept thinking of them in terms of birds or trains only. Clearly, something else is going on.
 
 ## Token economies are not based on the trade of goods or services
 
@@ -43,11 +44,10 @@ Because that code isn't owned by anyone, it's now just something that runs forev
 And we can see a common mistake when people buy and sell tokens, thinking they're somehow buying "shares" in something.  They're not shares in the same way stokes are shares of ownership in a company.
 
 
-## Market valuation of coordination systems
-
+## Coordination is value
 What tokens and stocks have in common is:
 
-1. Tokens and companies are both economic coordination systems
+1. Tokens and companies are both economic coordination systems. They both have value more than the capital and labour they contain, because they coordinate those.
 2. Token and company stock prices are both based on what the market dictates, and that price goes up or down depending on how much potential the market sees.
 
 In the case of stocks, the price of the stock goes up or down based on how much potential that stock traders see in that company. In the case of tokens, the price fluctuates according to how much potential its participants see in the coordination system it provides them.
