@@ -28,14 +28,16 @@ The Check-In feed becomes a single source of truth for a community:
 
 If you're leading or representing a project, share a few bullet points about the project:
 
-### Plans
+**Plans**
 - Overall objectives ([OKRs](https://www.dbooks.org/introduction-to-okrs-1491960272/) are great for this)
 - Priorities for the upcoming month
-### Progress
+
+**Progress**
 - Wins & accomplishments 
-- Key measurables
+- Key metrics
 - Any Recent Lessons Learned?
-### Problems
+
+**Problems**
 - Gotchas, delays
 - Things you haven't figured out
 - Requests for help 
