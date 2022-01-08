@@ -22,30 +22,15 @@ Accordance Dialogues are designed to work in async communication (on a forum) or
 ## Process
 Accordance Dialogues are action-oriented.  The discussion is always focused on a specific proposal, and if issues are raised, they are about specific cases.  If a participant dissents, they're expected to do it constructively, also looking for a practical way forward.
 
-### 1. Proposal
-The Proposer expresses:
-1. The needs their proposal addresses (Why)
-2. Their specific proposal (What & How)
-
-### 2. Vibe Check
-Others *immediately* indicate their level of support with:
-- thumbs up: they support the proposal
-- flat hand: they will support the decision of the group
-- thumbs down: they deny the proposal 
-see a significant flaw with the proposal
-
-### 3. Discussion
-Those that respond with thumbs down are obligated to *state why this affects them*, and ideally to say what would need to change in the proposal to address their needs. 
-
-
-### 4. Follow-on proposal
-After these issues are discussed, someone must *suggest another (modified in part or whole) proposal that attempts to the raised concerns and the Proposer's needs*.  (If nobody volunteers, then one of the people who voted thumbs down attempts one.)
-
-### 5. Repeat
-The process is repeated with modified proposals, allowing for iterative improvements.  The idea is to explore paths towards consensus by revealing and addressing critical concerns.
-
-### 6. Conclusion
-In the end, the Proposer may choose to withdraw their proposal, or to proceed as a Benevolent Dictator, taking on-board the concerns they've heard.
+1. **Proposal** - The Proposer expresses the needs their proposal addresses (Why) & their specific proposal (What & How)
+2. **Vibe Check** - Others *immediately* indicate their level of support with 
+  - 👍 in favour of the proposal
+  - 👋 neutral, supporting the decision of the group
+  - 👎 reject the proposal, or want to raise a significant flaw for discussion
+3. **Discussion** - Circulate through everyone who 👎 who says *why this affects them specifically*, and *what they need to be onboard*. After all have spoken, The group might ask questions to better understand the concerns.
+4. **Follow-on proposal** - Someone must *suggest another (modified in part or whole) proposal that attempts to the raised concerns and the Proposer's needs*.  (If nobody volunteers, then one of the people who voted thumbs down attempts one.)
+5. **Repeat** - Steps 1-5 are repeated to explore paths towards consensus.  The idea is to make follow-on proposals quickly, to reveal critical concerns and iteratively improve on previous proposals with that input.
+6. **Conclusion** - The original Proposer may choose to withdraw their proposal, or to proceed as a Benevolent Dictator, taking on-board the concerns they've heard.
 
 The Accordance Dialogue always ends with the Proposer restating their final proposal (or withdrawal.)
 
@@ -58,6 +43,6 @@ If consensus is proving difficult, facilitate the responses to:
 
 Keep in mind that full consensus may not be possible. Accordance Dialogues still highlight the key points of contention, which builds empathy and understanding across the group.  Often that is satisfactory to proceed.
 
-Once people feel heard and understood, they are more likely to support the group decision and the group is more likely to be concious of their needs. This is a way to avoid [Tacit Disagreements](/mindsets/fractal/)
+Once people feel heard and understood, they are more likely to support the group decision and the group is more likely to be concious of their needs. This is a way to avoid [Tacit Disagreements](/mindsets/fractals/#the-handshake-rule)
 
 
