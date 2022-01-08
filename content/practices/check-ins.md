@@ -28,25 +28,17 @@ The Check-In feed becomes a single source of truth for a community:
 
 If you're leading or representing a project, share a few bullet points about the project:
 
-**Plans**
-- Overall objectives ([OKRs](https://www.dbooks.org/introduction-to-okrs-1491960272/) are great for this)
-- Priorities for the upcoming month
+**Plans** - Overall objectives ([OKRs](https://www.dbooks.org/introduction-to-okrs-1491960272/) are great for this), priorities for the upcoming month
 
-**Progress**
-- Wins & accomplishments 
-- Key metrics
-- Any Recent Lessons Learned?
+**Progress** - Wins & accomplishments, key metrics, recent lessons learned
 
-**Problems**
-- Gotchas, delays
-- Things you haven't figured out
-- Requests for help 
+**Problems** - Gotchas, delays, things you haven't figured out, requests for help 
 
 This is done as frequently as this key information changes, but never more than a month between check-ins.
 
 
 ### Tips
-- These are easy and only take 5 minutes if you do them after a [Priorities Meeting](../priorities-meeting/).
+- These are easy and only take 5 minutes if you do them after a [Priorities Workshop](../priorities-meeting/).
 - Ask for help if you might need it, especially if you need a specific skill.  Often just putting it out there helps attract the right person, but also feel free to tag specific people.
 - Squads set their own goals but these are usually related to goals set by other squads, so read other check-ins to know what others are doing too. 
 
