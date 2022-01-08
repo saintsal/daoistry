@@ -46,7 +46,7 @@ When DAOs try to coordinate large project groups, especially groups where people
 Some people argue that coordinating large groups requires centralised management, but looking at Amazon, Spotify, and the US Army Special Forces all show that keeping groups small isn't only possible, but advantage.  And if we want the benefits of [decentralisation](/mindsets/decentralisation/) then the path forward is fractalisation because it *removes* coordination overhead rather than *adding* management complexity.
 
 ## What to do about it
-This gets a lot easier when you realise you don't need to solve anything for the whole DAO.  All you need to do start acting like a decentralised fractal youself. [Pick a small group to work with, commit to a result with them, and coordinate only with them.](/practices/squads/)
+This gets a lot easier when you realise you don't need to solve anything for the whole DAO.  All you need to do start acting like a decentralised fractal yourself. [Pick a small group to work with, commit to a result with them, and coordinate only with them.](/practices/squads/)
 
 This form of working will help your DAO progress towards decentralisation and autonomy.
 
