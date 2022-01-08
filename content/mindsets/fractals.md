@@ -10,9 +10,9 @@ Decentralisation is fractal.  A decentralised organisation will take shape based
 
 *Fractals in action: Here we see how branch shapes define the overall tree shape. [Try it yourself](https://www.complexity-explorables.org/explorables/weeds-and-trees/)*
 
-[MolochDAO]()https://molochdao.gitbook.io/ is one of the most prolific fractal DAOs.  It's designed to stay small, and split if needed. As MolochDAO got more popular, it didn't grow, it enabled hundreds more MolochDAOs to start, and you might have heard of some like [DAOHaus](http://daohaus.club/) and [MetaCartel](https://metacartel.org/).
+[MolochDAO](https://molochdao.gitbook.io/) is one of the most prolific fractal DAOs.  It's designed to stay small, and split if needed. As MolochDAO got more popular, it didn't grow, it enabled hundreds more MolochDAOs to start, and you might have heard of some like [DAOHaus](http://daohaus.club/) and [MetaCartel](https://metacartel.org/).
 
-The larger DAOs are also fractalising from within.  MakerDAO, Yearn, Synthetix have all seen Working Groups emerge.  And a number of DAOs are now generating SubDAOs to manage specific resources.  The underlying reason is the same: smaller groups coordinate better. Smaller groups are needed to get results.
+The larger DAOs are also fractalising from within.  MakerDAO, Yearn, Synthetix have all seen working groups emerge.  And a number of DAOs are now generating SubDAOs to manage specific resources.  The underlying reason is the same: smaller groups coordinate better. Smaller groups are needed to get results.
 
 These fractals go by different names. squads, working groups, subDAOs, teams... but the underlying approach is the similar: 
 
