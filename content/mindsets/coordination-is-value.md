@@ -6,11 +6,9 @@ iama: mindset
 
 # Coordination is value
 
-What's the value in an incentive system that aligns people?
+What's the value in an incentive system that aligns people? What's the value of uniting people towards a common cause ?
 
-What's the value of uniting people towards a common cause, that can get things done?
-
-This is a very big idea in society, involving politics, economics, organisational structures are more. [Laura Lotti explains how blockchain tokenisation is opening up new ways to do this](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).  She points out that because tokens are tradable like currency but also runnable like programs, they open completely new ways of organising people.
+This is a very big idea in society, involving politics, economics, organisational structures and more. [Laura Lotti explains how blockchain tokenisation is opening up new ways to do this](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).  She points out that because tokens are tradable like currency but also runnable like programs, they open completely new ways of organising people.
 
 Blockchain tokens explicitly define forms of participation, like buy, sell, stake or vote, allowing people to self-coordinate around a common goal.
 
