@@ -1,6 +1,6 @@
 ---
 title: Async-first
-image: /img/sonar.png
+image: /img/un-deux-trois.png
 iama: practice
 
 ---
