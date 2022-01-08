@@ -12,9 +12,9 @@ Also, in new environments, we don't want to step on anyone's toes or accidentall
 
 In DAOs, you're expected to just wade in, get started, and try to work in harmony with others. Everything you need to learn, you'll learn as you go.
 
-In fact, the only "rules" for you as [a participant]() in a DAO are actually set in the code of the token you bought, and the governance contracts, both of which are on-chain and accessible for you to read.
+In fact, the only "rules" for you as [a participant](/mindsets/blockchain-coordination/) in a DAO are actually set in the code of the token you bought, and the governance contracts, both of which are on-chain and accessible for you to read.
 
-Everything that needs some form of up-front permission is usually protected by code [allowing for decentralised activity aligned to the DAOs cause]().  For example, accessing resources owned by the token itself, or changing the token code. Everything else is permissionless by default.
+Everything that needs some form of up-front permission is usually protected by code [allowing for decentralised activity](/mindsets/decentralisation/) aligned to the DAOs cause.  For example, accessing resources owned by the token itself, or changing the token code. Everything else is permissionless by default.
 
 # The Vetocratic/Actiocratic Axis
 
@@ -47,7 +47,6 @@ When projects teams become too focused on coordinating with treasuries, or they 
 This leads to talented people leaving the DAO, and difficulty for new people to see how they can plug in usefully. That talent needs more Actiocracy to thrive.
 
 
-
 The loss of talent is a signal of too much Vetocracy and not enough Actiocracy.  The loss of common goods is a sign of too much Actiocracy and not enough Vetocracy.
 
 # In practice
@@ -60,7 +59,7 @@ A few tips:
 
 This is the idea, but in practice it still gets a bit messy.  Different people in DAOs have different paradigms, backgrounds and expectations.
 
-So **take action first without asking for permission**, but as you proceed, check in with people around you to seek accord.  If you want to do this explicitly, use an [Accordance Dialgue]().   Or just start yourself, and share a [Personal Check-In](/practices/check-ins) and those affected know to get in touch.
+So **take action first without asking for permission**, but as you proceed, check in with people around you to seek accord.  If you want to do this explicitly, use an [Accordance Dialgue](/practices/accordance-dialogues/).   Or just start yourself, and share a [Personal Check-In](/practices/check-ins) and those affected know to get in touch.
 
 If there's no place you feel comfortable plugging in or starting yourself, there are places in DAOs where people leading projects look for help.  Those are generally Guilds, which are open groups of people who are developing certain practices, like Design, Agile, Software Development, Marketing, Community-building. So look out for guilds where you can volunteer and make yourself available.
 
