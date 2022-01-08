@@ -143,7 +143,7 @@ a.practices, span.practices {
 }
 
 a.mindsets, span.mindsets {
-  color: #05cf9a;
+  color: #00a67bfa;
 }
 
 .practices .article-content {
@@ -359,15 +359,18 @@ form {
   border-left: 2px solid;
 }
 
+footer form {
+  border: none;
+  padding: 0px 20px;
+  margin: 0px;
+}
+
+
 form input {
   background: none;
-  border: none;
-  color: blue;
   font-size: 15px;
   font-family: inherit;
-  padding: 0;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 .episode-content {
@@ -467,7 +470,6 @@ details .content {
   }
 
   form {
-    display: none;
   }
 
   .article-image {
