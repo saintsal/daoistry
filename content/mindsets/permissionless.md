@@ -40,9 +40,11 @@ When challenging the status quo, Actiocracies are needed to promote the new para
 
 Most (web2) online communities stayed Actiocracies for too long, allowing the change-makers to dominate people and erode the common goods that everyone created together.
 
-On the flip side, many large DAOs end up stagnating with too much vetocracy.  When whales accumulate tokens and act as "governance" but are detached from the actual work, they end up blocking progress.
+On the flip side, many large DAOs end up stagnating with too much vetocracy.  When whales accumulate tokens and act as "governance" but are detached from the actual work, they end up blocking progress. They have effectively [centralised](/mindsets/decentralisation) veto powers around themselves, becoming a [Dilbert-style](https://dilbert.com/strip/2020-06-14) shadow hierarchy.
 
-When projects teams become too focused on coordinating with treasuries, or they end up constraining their own direction based on the opinion of a detached Vetocracy, then they fail. (Often this is when governance detaches itself from the value creation and builds [centralised](/mindsets/decentralisation) veto powers around themselves, effectively becoming a Dilbert-style shadow hierarchy.)
+
+
+When projects teams become too focused on coordinating with treasuries, or they end up constraining their own direction based on the opinion of a detached Vetocracy, then they fail. 
 
 This leads to talented people leaving the DAO, and difficulty for new people to see how they can plug in usefully. That talent needs more Actiocracy to thrive.
 
