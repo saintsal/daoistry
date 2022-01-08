@@ -6,7 +6,7 @@ iama: practice
 
 Mindsets applied: 
 
-- [Coordination is value](/mindsets/coordination-is-value/)
+- [Blockchains are coordination systems](/mindsets/blockchain-coordination/)
 - [Seek accord, not permission](/mindsets/permissionless/)
 - [Decentralisation](/mindsets/decentralisation/)
 
