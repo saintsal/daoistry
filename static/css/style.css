@@ -282,7 +282,7 @@ article:nth-child(odd) + footer {
 .tutorial-content {
   z-index: 1;
   padding: 20px;
-  padding-bottom: 50vh;
+  padding-bottom: 10vh;
   width: 560px;
   color: #222;
 }
