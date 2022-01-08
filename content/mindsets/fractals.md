@@ -25,7 +25,7 @@ These fractals go by different names. squads, working groups, subDAOs, teams... 
 ## The handshake rule
 Why is this shift happening?
 
-Self-coordination works, but only in smaller groups. 
+Self-coordination works better, but only in smaller groups. 
 
 There's a mathematical phenomenon behind this.  Consider how many handshakes are for a group of a given size to all be in agreement.
 
