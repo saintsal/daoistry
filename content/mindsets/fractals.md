@@ -31,7 +31,7 @@ There's a mathematical phenomenon behind this.  Consider how many handshakes are
 
 ![](/img/handshake-rule.png)
 
-One person?  Zero handshakes! One person already agrees with themselves.
+One person?  Zero handshakes! One person already agrees with themself. (Unless they are Mr Robot.)
 
 Two people?  One handshake.  Three people? Three handshakes.  Four people? Six handshakes.  Five people? Ten handshakes. Ten people? 45 handshakes!
 
