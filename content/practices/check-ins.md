@@ -13,14 +13,15 @@ Mindsets applied:
 - [Decentralisation](/mindsets/decentralisation/)
 
 # Check ins
-DAOs are noisy, so use Check-Ins to create signal.
+DAOs are noisy. Check-Ins to create signal that cut through the noise.
 
-Check-Ins are short, bullet-point updates, written on a dedicated forum category every few weeks. ( When the important info is shared in in ephemerical channels - voice chats, group calls,  dms and endlessly scrolling channels - there's no way to keep up. The forum Check-In solves this by going [async](../async-first/).)
+Check-Ins are short, bullet-point updates, written on a dedicated forum category every few weeks. They're purposely infrequent and short, creating a calm feeling of steady progress so anyone can [get caught up on their own time](../async-first/).
 
-Check-Ins quickly become the most useful Source Of Truth for:
-  - Collaborators - to know where they can help (not just reactively like with bounties, but also proactively)
-  - Team Coordinators - to ensure their direction is coordinated and supported by the DAO
-  - DAO joiners - figuring out what's going on
+The Check-In feed becomes a single source of truth for a community:
+
+- Collaborators - know where they can help (not just reactively like with bounties, but also proactively)
+- Team Coordinators - ensure their direction is coordinated and supported by the DAO
+- DAO joiners - figure out what's going on
 
 
 ## Project Check-Ins
