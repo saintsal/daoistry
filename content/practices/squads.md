@@ -6,6 +6,7 @@ iama: practice
 
 
 Mindsets applied: 
+
 - [Seek accord, not permission](/mindsets/permissionless/)
 - [Decentralisation](/mindsets/decentralisation/)
 
