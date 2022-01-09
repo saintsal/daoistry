@@ -10,7 +10,7 @@ Decentralisation is fractal.  A decentralised organisation will take shape based
 
 ![branch shapes define the tree shape](/img/fractal-trees.png)
 
-*Fractals in action: Here we see how branch shapes define the overall tree shape. [Try it yourself](https://www.complexity-explorables.org/explorables/weeds-and-trees/)*
+*Fractals in action: Here we see how repeating the same branch shapes define the overall tree shape. [Try it yourself](https://www.complexity-explorables.org/explorables/weeds-and-trees/)*
 
 [MolochDAO](https://molochdao.gitbook.io/) is one of the most prolific fractal DAOs.  It's designed to stay small, and split if needed. As MolochDAO got more popular, it didn't grow, it enabled hundreds more MolochDAOs to start, and you might have heard of some like [DAOHaus](http://daohaus.club/) and [MetaCartel](https://metacartel.org/).
 
