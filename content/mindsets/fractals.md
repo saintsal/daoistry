@@ -47,7 +47,7 @@ Two people have a 90% chance of success. Three have an 81% chance (0.9 ^ 2).  Fo
 
 When DAOs try to coordinate large project groups, especially groups where people can come and go every week, they have too many people to coordinate. 
 
-Some people argue that coordinating large groups requires centralised management, but looking at Amazon, Spotify, and the US Army Special Forces all show that keeping groups small isn't only possible, but advantageous.  Because small groups make better decisions, get more done, and coordinate among themselves. And if we want the benefits of [decentralisation](/mindsets/decentralisation/) then the path forward is fractalisation because it *removes* coordination complexity rather than *adding* management overhead.
+Some people argue that coordinating large groups requires centralised management, but looking at Amazon, Spotify, and the US Army Special Forces all show that keeping groups small isn't only possible, it's advantageous.  Because small groups make better decisions, get more done, and coordinate among themselves. And if we want the benefits of [decentralisation](/mindsets/decentralisation/) then the path forward is fractalisation because it *removes* coordination complexity rather than *adding* management overhead.
 
 ## What to do about it
 This gets a lot easier when you realise you don't need to solve anything for the whole DAO.  All you need to do start acting like a decentralised fractal yourself. [Pick a small group to work with, commit to a result with them, and coordinate only with them.](/practices/squads/)
