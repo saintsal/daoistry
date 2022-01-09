@@ -6,16 +6,15 @@ iama: mindset
 
 # Blockchains as coordination systems
 
-What's the value in an incentive system that aligns people? What's the value of uniting people towards a common cause ?
+What's the value in an incentive system that aligns people? What's the value of uniting people towards a common cause?
 
-This is a very big idea in society, involving politics, economics, organisational structures and more. [Laura Lotti explains how blockchain tokenisation is opening up new ways to do this](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).  She points out that because tokens are tradable like currency but also runnable like programs, they open completely new ways of organising people.
+Big questions, involving politics, economics, organisational structures and more. [Laura Lotti explains how blockchain tokenisation is opening up new ways to do this](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).  Tokens are tradable like currency but also runnable like programs, they offer new ways of organising people. 
 
-Blockchain tokens explicitly define forms of participation, like buy, sell, stake or vote, allowing people to self-coordinate around a common goal.
+We can start by looking at tokens as software with explicitly defined interactions, like buy (join), sell (leave), stake (commit) or vote, but instead of representing ownership, they define rules for people to self-coordinate around a common goal.
 
 This makes DAOs a new form of human coordination. Not because they're decentralised, or because they're open. (Those have happened before.) DAOS are a new form of human coordination because they **align people using blockchains**.
 
 This creates a new kind of relationship between DAO participants which we're still learning about and evolving.
-
 
 ## Tokens are a non-corporate paradigm
 
@@ -31,7 +30,7 @@ or maybe
 
 And we could call a plane a bird-train, but we'd really be missing the point. 
 
-We wouldn't get very far trying to understand planes if we kept thinking of them in terms of birds or trains only. Clearly, something else is going on.
+We wouldn't get far trying to understand planes if we kept thinking of them in terms of birds or trains only. Clearly, something else is going on.
 
 ## Token economies are not based on the trade of goods or services
 
@@ -42,7 +41,6 @@ What tokens enable isn't just a tradable currency or cloud computing. They attra
 Because that code isn't owned by anyone, it's now just something that runs forever as long as that blockchain runs.  Your token doesn't give you shareholder or ownership rights to that code (or anything else), it gives you tokenholder rights to participate. (Those rights are different for every token.)
 
 And we can see a common mistake when people buy and sell tokens, thinking they're somehow buying "shares" in something.  They're not shares in the same way stokes are shares of ownership in a company.
-
 
 ## Coordination is value
 What tokens and stocks have in common is:
