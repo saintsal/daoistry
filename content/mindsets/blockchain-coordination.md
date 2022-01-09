@@ -56,9 +56,11 @@ The value in a token is largely connected to the community it attracts, normally
 
 In the same way we know a switch on the wall controls the movement of electricity (effort) through wires (resources) to create light, we know that a ride-sharing app will mobilise a driver (effort) and car (resources) to come pick us up.  
 
-A light switch is a physical object, and an app in a phone is a virtual object.  And yet, we learn that these little boxes on our walls or on our phones have a deeper reach.   In design and cognitive science terms, this recognition that we can manipulate one thing with another is called an "affordance".  
+A light switch is a physical object, and an app in a phone is a virtual object.  And yet, we learn that these little boxes on our walls or on our phones have a deeper reach.   
 
-Digital objects, as affordances, only exist when enough humans agree to the systems.  If the drivers didn't agree to participate and your friends didn't think of the app when they wanted to go somewhere, that app wouldn't do anything, and it wouldn't be an object in anyone's mind.  It would just be software that nobody ever runs, a square icon on a phone that never gets pressed.
+In design and cognitive science terms, this recognition that we can manipulate something with a part of it is called an "affordance".  In the case of digital objects, the app allows us to manipulate something economic, so it's an "economic affordance."
+
+Digital objects, as affordances, only exist when enough humans agree to interact with them.  If the drivers didn't agree to participate and your friends didn't think of the app when they wanted to go somewhere, that app wouldn't do anything, and it wouldn't be an object in anyone's mind.  It would just be software that nobody ever runs, a square icon on a phone that never gets pressed.
 
 Once we all start to agree on how this thing works, it becomes a new type of object, and "affords" us control of effort and resources.
 
