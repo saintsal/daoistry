@@ -60,30 +60,25 @@ A light switch is a physical object, and an app in a phone is a virtual object. 
 
 In design and cognitive science terms, this recognition that we can manipulate something with a part of it is called an "affordance".  In the case of digital objects, the app allows us to manipulate something economic, so it's an "economic affordance."
 
-Digital objects, as affordances, only exist when enough humans agree to interact with them.  If the drivers didn't agree to participate and your friends didn't think of the app when they wanted to go somewhere, that app wouldn't do anything, and it wouldn't be an object in anyone's mind.  It would just be software that nobody ever runs, a square icon on a phone that never gets pressed.
+Digital objects, as economic affordances, only exist when enough humans agree to interact with them.  Back to the ride-sharing app; if the drivers didn't agree to participate and your friends didn't think of the app when they wanted to go somewhere, that app wouldn't do anything. So it wouldn't be an object in anyone's mind.  
 
 Once we all start to agree on how this thing works, it becomes a new type of object, and "affords" us control of effort and resources.
 
+So something simple buying and selling a token becomes like a light switch.  It's a new type of economic mechanism that we get to experiment with.
+
 ## Valuing these new coordination systems
 
-So the very very big idea for our society is that tokens provide a way to coordinate effort, resources and capital, but without needing to take roles of investor, owner, or employee. We don't need companies. 
+With tokenized communities, people align to a common goal, a North Star, without being an owner, employee or shareholder. It's an economic alignment around a new kind of virtual object that is neither company or app.
 
-This is something different. This is a new kind of affordance, in the same category as a light switch or an app or a company, but different.
+When we look at tokens as *participation rules laid out as economic incentives*, we may not even need human managers to coordinate us.  Coordination through well-designed token economies minimises the need for hierarchical leadership and middle management because the incentives move people towards [self-coordination](/mindsets/fractals) and rewards the result-getters.
 
+Attracting people around a common goal isn't new, but coordinating them with a tradable, functional tokens is very new.  And it's worth something because it enables us to achieve goals that matter to us, especially goals that the old forms of coordination, like companies, NGOs and governments, are not good at. We are all aware of the downsides of corporate behaviour, poor NGO success rates, and government incompetence. Well, blockchains and DAOS add a new tool to our toolbelt.
 
-One big difference we're seeing is how token rules, written in its code, provide a way to coordinate that community, including it's people, capital and effort, towards that shared goal.
-
-People align to a North Star without being an owner, employee or shareholder. It's an economic alignment around a new kind of virtual object that is neither company or app.
-
-When we look at tokens as *participation rules laid out as economic incentives*, we may not even need human managers to coordinate us.  Coordination through well-designed token economies minimises the need for hierarchical leadership and middle management because the incentives move people towards self-coordination and rewards the result-getters.
-
-Attracting people around a common goal isn't new, but coordinating them with a tradable, functional tokens is very new.  And it's worth something because it enables us to achieve goals that matter to us, especially goals we find challenging with our current forms of coordination. We are all aware of the downsides of corporate cultures, NGO success rates and government incompetence. Well, blockchains and DAOS add a new tool to our toolbelt.
-
-We'll leave you with Lotti herself, explaining why we value these systems, even at the start, before they've done anything useful:
+We'll leave you with Lotti herself, explaining why we value these systems, even at the start, even before they've done anything:
 
 > Thus, while cryptotokens’ underlying value at the time of issuance and until realization remains unbounded – structurally, it cannot be known in advance – by definition each token is paradoxically fully backed by its functionality, or, in other words, by what it potentially affords.
 
-Each token has value because it's backed by a coded ruleset that each of it's holders has agreed to. So the value of the token is the value that its coordination can deliver.
+Each token has value because it's backed by a coded ruleset that each of it's holders has agreed to. So the value of the token is the value that this coordination can deliver.
 
 # Practices
 
