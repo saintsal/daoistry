@@ -12,7 +12,7 @@ This is a very big idea in society, involving politics, economics, organisationa
 
 Blockchain tokens explicitly define forms of participation, like buy, sell, stake or vote, allowing people to self-coordinate around a common goal.
 
-This makes DAOs are a new form of human coordination. Not because they're decentralised, or because they're open. (Those have happened before.) DAOS are a new form of human coordination because they **align people using blockchains**.
+This makes DAOs a new form of human coordination. Not because they're decentralised, or because they're open. (Those have happened before.) DAOS are a new form of human coordination because they **align people using blockchains**.
 
 This creates a new kind of relationship between DAO participants which we're still learning about and evolving.
 
