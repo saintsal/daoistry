@@ -4,6 +4,8 @@ image: /img/tree.png
 iama: mindset
 ---
 
+# Fractalise 
+
 Decentralisation is fractal.  A decentralised organisation will take shape based on what the smaller parts do. The parts form the whole, the whole doesn't control the parts.
 
 ![branch shapes define the tree shape](/img/fractal-trees.png)
