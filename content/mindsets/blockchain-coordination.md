@@ -72,7 +72,7 @@ With tokenized communities, people align to a common goal, a North Star, without
 
 When we look at tokens as *participation rules laid out as economic incentives*, we may not even need human managers to coordinate us.  Coordination through well-designed token economies minimises the need for hierarchical leadership and middle management because the incentives move people towards [self-coordination](/mindsets/fractals) and rewards the result-getters.
 
-Attracting people around a common goal isn't new, but coordinating them with a tradable, functional tokens is very new.  And it's worth something because it enables us to achieve goals that matter to us, especially goals that the old forms of coordination, like companies, NGOs and governments, are not good at. We are all aware of the downsides of corporate behaviour, poor NGO success rates, and government incompetence. Well, blockchains and DAOS add a new tool to our toolbelt.
+Attracting people around a common goal isn't new, but coordinating them with a tradable *and* functional token is very new.  And it's worth something because it enables us to achieve goals that matter to us, especially goals that the old forms of coordination, like companies, NGOs and governments, are not good at. We are all aware of the downsides of corporate behaviour, poor NGO success rates, and government incompetence. Well, blockchains and DAOS add a new tool to our toolbelt.
 
 We'll leave you with Lotti herself, explaining why we value these systems, even at the start, even before they've done anything:
 
