@@ -37,11 +37,13 @@ One person?  Zero handshakes! One person already agrees with themself.
 
 Two people?  One handshake.  Three people? Three handshakes.  Four people? Six handshakes.  Five people? Ten handshakes. Ten people? 45 handshakes!
 
-Now, consider that when people disagree, it usually doesn't look like disagreement. They might try to be agreeable but end up prioritising things differently. They might agree at first but realise they can't later. They might just get caught up and miss a call, so miss the chance to connect. In all of these cases, we have a handshake fail, and if that's something the team depends on, it ripples out to create a bigger failure.   Usually these don't look like failures, just delays and coordination headaches.
+Now, consider that when people disagree, it usually doesn't look like disagreement. They might try to be agreeable but end up prioritising things differently. They might agree at first but realise they can't later. They might just get caught up and miss a call, so miss the chance to connect. In all of these cases, we have a handshake fail, and if that's something the team depends on, it ripples out to create a bigger failure.   
+
+Usually these don't look like failures, just delays and coordination headaches.
 
 Back to the math, let's say that each handshake has a 90% likelihood of success, so a 10% liklihood of failure.
 
-Two people have a 90% chance of success. Three have an 81% chance (0.9 ^ 2).  Four people have a 72% chance (0.9 ^ 3) which is already a 28% chance of failure!  Ten people only have a 34% chance of success!
+Two people have a 90% chance of success. Three have an 81% chance (0.9 ^ 2).  Four people have a 72% chance (0.9 ^ 3) which is already a 28% chance of failure!  If ten people try to agree on something where any two will agree 90% of time, the group of ten only have a 34% chance of agreeing! 
 
 When DAOs try to coordinate large project groups, especially groups where people can come and go every week, they have too many people to coordinate. 
 
