@@ -52,11 +52,11 @@ Some people argue that coordinating large groups requires centralised management
 We can have the benefits of [decentralisation](/mindsets/decentralisation/) at scale because ractalisation *removes* coordination complexity rather than *adding* management overhead.
 
 ## What to do about it
-This gets a lot easier when you realise you don't need to solve anything for the whole DAO.  All you need to do start acting like a decentralised fractal yourself. [Pick a small group to work with, commit to a result with them, and coordinate only with them.](/practices/squads/)
+
+This gets a lot easier when you realise you don't need to solve anything for the whole DAO.  All you need to do start acting like a decentralised fractal yourself. [Pick a small group to work with](/practices/squads/), pick [a direction that works](/practices/accordance-dialogues), and [coordinate only with them](/practices/priorities-meeting/).
 
 This form of working will help your DAO progress towards decentralisation and autonomy.
 
-And it'll also [free you from a ton of meetings](/practices/priorities-meeting/)!
 
 Making this switch seems hard, but it's usually just a matter changing a few work habits.
 
