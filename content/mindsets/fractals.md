@@ -29,7 +29,7 @@ Why is this shift happening?
 
 Self-coordination works better, but only in smaller groups. 
 
-There's a mathematical phenomenon behind this.  Consider how many handshakes are for a group of a given size to all be in agreement.
+There's a mathematical phenomenon behind this.  Consider how many handshakes are needed for a group of a given size to all be in agreement.
 
 ![](/img/handshake-rule.png)
 
@@ -37,7 +37,7 @@ One person?  Zero handshakes! One person already agrees with themself.
 
 Two people?  One handshake.  Three people? Three handshakes.  Four people? Six handshakes.  Five people? Ten handshakes. Ten people? 45 handshakes!
 
-Now, consider that when people disagree, they don't normally say it. They might try to be agreeable but end up prioritising things differently. They might not be able to communicate so not find the way to agree.  They might just get caught up and miss a call. In all of these cases, we have a handshake fail, and if that's something the team depends on, it ripples out to create a bigger failure.   Usually these don't look like failures, just delays and coordination headaches.
+Now, consider that when people disagree, it usually doesn't look like disagreement. They might try to be agreeable but end up prioritising things differently. They might agree at first but realise they can't later. They might just get caught up and miss a call, so miss the chance to connect. In all of these cases, we have a handshake fail, and if that's something the team depends on, it ripples out to create a bigger failure.   Usually these don't look like failures, just delays and coordination headaches.
 
 Back to the math, let's say that each handshake has a 90% likelihood of success, so a 10% liklihood of failure.
 
