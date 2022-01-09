@@ -39,7 +39,7 @@ Two people?  One handshake.  Three people? Three handshakes.  Four people? Six h
 
 Now, consider that when people disagree, it usually doesn't look like disagreement. They might try to be agreeable but end up prioritising things differently. They might agree at first but realise they can't later. They might just get caught up and miss a call, so miss the chance to connect. In all of these cases, we have a handshake fail, and if that's something the team depends on, it ripples out to create a bigger failure.   
 
-Usually these don't look like failures, just delays and coordination headaches.
+**Usually these don't look like failures, just delays and coordination headaches. Sound familiar?**
 
 Back to the math, let's say that each handshake has a 90% likelihood of success, so a 10% liklihood of failure.
 
@@ -49,7 +49,7 @@ When DAOs try to coordinate large project groups, especially groups where people
 
 Some people argue that coordinating large groups requires centralised management, but looking at Amazon, Spotify, and the US Army Special Forces all show that keeping groups small isn't only possible, it's advantageous.  Because small groups make better decisions, get more done, and coordinate among themselves. 
 
-We can have the benefits of [decentralisation](/mindsets/decentralisation/) at scale because ractalisation *removes* coordination complexity rather than *adding* management overhead.
+We can have the benefits of [decentralisation](/mindsets/decentralisation/) at scale because fractalisation *removes* coordination complexity rather than *adding* management overhead.
 
 ## What to do about it
 
