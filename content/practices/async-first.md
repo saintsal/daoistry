@@ -51,7 +51,7 @@ Source Institute's [Speedboat Armada](https://source.institute/collaboration/dec
 
 > On forums, it is easy to continue discussions over any period of time. New members can even pick up on a conversation and figure out what's going on. Discussions evolve and build up towards common understanding.
 
-If it matters for work, it goes on the forum, and chat is only used for social and fun stuff.
+Chat's for the vibes. If it matters for work, it goes on the forum. 
 
 Since people don't have to to track all the chat groups and go to meetings, they have way more time for "actual work" -- while still getting group input openly. 
 
