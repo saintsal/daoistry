@@ -8,7 +8,7 @@ iama: mindset
 
 What's the value in an incentive system that aligns people? What's the value of uniting people towards a common cause?
 
-Big questions, involving politics, economics, organisational structures and more. [Laura Lotti explains how blockchain tokenisation is opening up new ways to do this](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).  Tokens are tradable like currency but also runnable like programs, they offer new ways of organising people. 
+Big questions, involving politics, economics, organisational structures and more. [Laura Lotti explains how blockchain tokenisation is opening up new ways to do these things](http://mediatheoryjournal.org/laura-lotti-blockchain-affordances/).  Tokens are tradable like currency but also runnable like programs, and because they're both at once, they offer new ways of organising people. 
 
 We can start by looking at tokens as software with explicitly defined interactions, like buy (join), sell (leave), stake (commit) or vote, but instead of representing ownership, they define rules for people to self-coordinate around a common goal.
 
