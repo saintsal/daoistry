@@ -75,7 +75,7 @@ Usually these don't look like attackers.  In most DAOs we see a variety of compl
 
 New joiners look for their place, somewhere they can be useful, get paid, maybe make new friends. So far no worries. But what about those that are looking to build their professional portfolios, to gain reputation, or for insider information? These motives aren't necessarily bad but start to show misalignment. Good intentions, but maybe not good actions.
 
-Whales have their own agendas too. They often participate in private groups, and coordinate price manipulation. This isn't always through direct collusion.  It happens more often and more more naturally by signalling to each other through their behaviours.  Whales tend to buy in and sell of in groups, and signal intention to each other through their participation (or lack of participation) in governance. So here, even more transparency doesn't help, since they can still collude implicitly and in the open.
+Whales have their own agendas too. Some whales participate in private groups that coordinate price manipulation. This isn't always through direct collusion either.  It happens more often and more more naturally by signalling to each other through their behaviours.  Whales tend to buy in and sell of in groups, and signal intention to each other through their participation (or lack of participation) in governance. So here, even more transparency doesn't help, since they can still collude implicitly and in the open.
 
 We can't limit ourselves to thinking of adversaries as trying to fud and short the token for pure financial gain. We have to consider people trying to help as well.
 
