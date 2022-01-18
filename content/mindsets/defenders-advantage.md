@@ -45,7 +45,7 @@ It's like a flashmob at a store. The staff are too overwhelmed by the flood of p
 ### Sender vs Receiver advantage
 Sometimes, DAOs end up with centralisation in various places, and the noisier they get, the harder it is for people to communicate.
 
-In this case, we have a choice.  Do we favour the sender or the receiver?  Do we make it easy for people to send messages at the cost of overwhelming receivers, or do we increase the cost or barriers to send, in order to protect the receivers?  
+In this case, we have a choice.  Do we favour the sender or the receiver?  Do we make it easy for people to send messages at the cost of overwhelming receivers, or do we increase the cost or barriers to send, in order to [protect the receivers?](/practices/async-first)
 
 When an environment is too noisy, it's time to start favouring the receivers.
 
