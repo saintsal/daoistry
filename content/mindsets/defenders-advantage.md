@@ -19,7 +19,7 @@ While investigating ways to make Proof Of Stake coordination work on a technical
 
 > Castles are far easier to destroy than build, islands are defendable but can still be attacked, but an average person’s ECC keys are secure enough to resist even state-level actors. 
 
-Vitalik looked at the power we all have in our computers, to encrypt messages than nobody, not even governments, can decode. The reason is [down to the math](https://www.youtube.com/watch?v=M7kEpw1tn50), basically because it's hard for computers to calculate the [factors](https://www.mathsisfun.com/algebra/factoring.html) of [large prime numbers](https://math.stackexchange.com/questions/7377/why-are-very-large-prime-numbers-important-in-cryptography). 
+Vitalik looked at the power we all have in our computers, to encrypt messages that nobody, not even governments, can decode. The reason is [down to the math](https://www.youtube.com/watch?v=M7kEpw1tn50), basically because it's hard for computers to calculate the [factors](https://www.mathsisfun.com/algebra/factoring.html) of [large prime numbers](https://math.stackexchange.com/questions/7377/why-are-very-large-prime-numbers-important-in-cryptography). 
 
 So the cryptography used by your blockchain wallet is makes it very light for your computer to encrypt something, but almost impossible for an attacker to decrypt, even if they had a building full of computers.  This is an asymmetrical advantage to the defender of the message.
 
@@ -32,8 +32,8 @@ The big idea here is that Defenders' Advantage can be designed into coordination
 There's a lot going on here, so we'll start with understanding how Defenders' Advantage works in various computer systems, then expand that to defending human coordination and collaboration.
 
 
-## The Internet itself is built on Defenders' Advantage
-The Internet itself formed from ARPANET, a military communication network that used [decentralisation](/mindsets/decentralisation) to create resilience against attack. If one router goes down, the messages just finds another path. So an attacker can't just unplug something, they have to invest in unplugging a whole bunch of things to have any effect at all. The Defenders have a big advantage. 
+## The Internet is built on Defenders' Advantage
+The Internet itself formed from ARPANET, a military communication network that used [decentralisation](/mindsets/decentralisation) to create resilience against attack. If one router goes down, the messages just finds another path. So an attacker can't just unplug a few routers, they have to invest in unplugging a whole bunch of them to have any effect at all. The Defenders have a big advantage. 
 
 ### Denial Of Service
 When websites like Facebook go down, that's because they chose centralised infrastructure instead of decentralised.  
@@ -52,7 +52,7 @@ When an environment is too noisy, it's time to start favouring the receivers.
 ## Proof-Of-Stake is built on Defenders' Advantage
 Modern Proof-Of-Stake blockchains design for Defenders Advantage as well.  They must ensure the cost for bribing the miners is never worth it. 
 
-The [Chainlink v2 Whitepaper](https://research.chain.link/whitepaper-v2.pdf) explains how they've looked at this from an economic point of view.  Chainlink's blockchain provides us with data, and often that data is used to make decisions for much larger sums of money than the Chainlink network earns. For example, if a smart contract relies on Chainlink for the price of gold, it might only pay Chainlink a few dollars to direct a transaction worth millions in gold.  So in some cases, it makes sense for an attacker to bribe those nodes to give false information, for example to lie and say the price is lower to allow the attacker to buy gold under market price. This would be a kind of economic attack on the Chainlink network.
+The [Chainlink v2 Whitepaper](https://research.chain.link/whitepaper-v2.pdf) explains how they've looked at this from an economic point of view.  Chainlink's blockchain provides us with data, and often that data is used to make decisions for much larger sums of money than the Chainlink network earns. For example, if a smart contract relies on Chainlink for the price of gold, it might only pay Chainlink a few dollars for a real-time price, and use that information for a transaction worth millions.  So it makes sense for an attacker to bribe those nodes to give false information, for example to lie and say the price is lower, allowing the attacker to buy gold under market price. This would be a kind of economic attack on the Chainlink network.
 
 This gives us a nice illustration of Defenders' Advantage.
 
@@ -60,14 +60,14 @@ Each Chainlink data provider needs to stake their own money to provide data serv
 
 On top of this, Chainlink's *super-linear staking mechanism* forces the briber to overpay each time they have another provider to bribe. So overall they have to massively overpay, making it not worth doing. 
 
-> The main such feature is super-linear staking impact (specifically, quadratic). An adversary must have resources considerably in excess of nodes’ deposited funds in order to subvert the mechanism.
+> The main feature is super-linear staking impact (specifically, quadratic). An adversary must have resources considerably in excess of nodes’ deposited funds in order to subvert the mechanism.
 
 As Chainlink gets bigger, the cost to bribe the network rises quadratically.  The cost of attack grows while the cost of defense decreases in relation. The bigger the network, the easier it is to kick out corrupt nodes since the network depends on them less.
 
 ## Defending against internal threats
 When we think about internal threats, it's not all about bribes or antagonistic intentions.
 
-Vitalik explains it's a mistake to assume this is always about rational incentives:
+Vitalik explains it's also a mistake to assume behaviour stems from rational incentives:
 
 > Economics is not everything. Individual actors may be motivated by extra-protocol motives, they may get hacked, they may get kidnapped, or they may simply get drunk and decide to wreck the blockchain one day and to hell with the cost.
 
@@ -115,10 +115,11 @@ Put another way, creating more transparency only helps when it favours the auton
 
 ## Finding the balance
 The right balance between openness and defense is usually a matter of:
+
  - knowing where you are on the [Actiocratic Axis](/mindsets/permissionless), do you need to favour the doers who create, or the vetoers who protect?
  - distinguishing between rights to see, and rights to participate
 
-If the coordinators are protecting a common good, design for Vetocracy and visibility. The Defenders Advantage needs to be done optimising for transparency. Everyone affected needs access to see the decision-making apparatus. This is usually done with a combination of on-chain voting, public forums and anti-collusion incentives.
+If the coordinators are protecting a common good, design for Vetocracy and visibility. The Defenders Advantage needs to be optimise for transparency. Everyone affected needs access *to see into* the decision-making apparatus. This is usually done with a combination of on-chain voting, public forums and anti-collusion incentives.
 
 If the coordinators are creating something new, then Defenders' Advantage goes to the doers.  This requires an Actiocracy where a team can form, capable and committed to the results, and with complete control over their own scope and communication. If they are held accountable to their results, then their autonomy supersedes full transparency.  (When they succeed, and create a common good, transparency and Vetocracy get introduced then to defend the assets they created.)
 
