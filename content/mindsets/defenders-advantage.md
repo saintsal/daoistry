@@ -73,7 +73,7 @@ Vitalik's advice is to protect communication from bad actions, both external **a
 
 Usually these don't look like attackers.  In most DAOs we see a variety of complex motivations that lead to behaviours that work against the DAO as a whole.
 
-New joiners look for their place, somewhere they can be useful, get paid, maybe make new friends. So far now worries, but what about those that are looking to build their professional portfolios, to gain reputation, or for insider information? These motives aren't necessarily bad but start to show opportunities for misalignment. Good intentions, but maybe not good actions.
+New joiners look for their place, somewhere they can be useful, get paid, maybe make new friends. So far no worries. But what about those that are looking to build their professional portfolios, to gain reputation, or for insider information? These motives aren't necessarily bad but start to show misalignment. Good intentions, but maybe not good actions.
 
 Whales have their own agendas too. They often participate in private groups, and coordinate price manipulation. This isn't always through direct collusion.  It happens more often and more more naturally by signalling to each other through their behaviours.  Whales tend to buy in and sell of in groups, and signal intention to each other through their participation (or lack of participation) in governance. So here, even more transparency doesn't help, since they can still collude implicitly and in the open.
 
