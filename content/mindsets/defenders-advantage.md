@@ -104,23 +104,26 @@ As DAO contributors, we have to organise our own communication to work against t
 ## Autonomy in communication
 For decentralisation to work, participants need to be able to act autonomously, free from centralised control.
 
-But how do we allow such autonomy while at the same time dissuading that same autonomy to be used for collusion?
+But how do we allow such autonomy while also dissuading that same autonomy from being used for collusion?
 
 > It is important to have both layers of defense: economic incentives to discourage centralized cartels from acting anti-socially, and anti-centralization incentives to discourage cartels from forming in the first place.
 
-In Game Theory, there are the famous [Generals' Problems](https://www.youtube.com/watch?v=s8Wbt0b8bwY) which are all about defending communication through a hostile environment.  One of the classics involves two allied armies meeting on two hills, where the valley between in is patrolled by their common enemy.  How can they send messages and coordinate?  All the solutions rely on **designing for a Defenders' Advantage for the messengers and coordinators.**
+In Game Theory, there are the famous [Generals' Problems](https://www.youtube.com/watch?v=s8Wbt0b8bwY) which are all about defending communication through a hostile environment.  One of the classics involves two allied armies meeting on two hills, where the valley between them is patrolled by their common enemy.  How can they send messages and coordinate?  All the solutions rely on **designing for a Defenders' Advantage for the messengers and coordinators.**
 
-Put another way, creating more transparency only helps when it favours the autonomous nodes and not the centralised cartels.
 
 
 ## Finding the balance
+Creating more transparency only helps when it favours the autonomous nodes and not the centralised cartels.
+
 The right balance between openness and defense is usually a matter of:
 
- - knowing where you are on the [Actiocratic Axis](/mindsets/permissionless), do you need to favour the doers who create, or the vetoers who protect?
- - distinguishing between rights to see, and rights to participate
+ - Knowing where you are on the [Actiocratic Axis](/mindsets/permissionless), do you need to favour the doers who create, or the vetoers who protect?
+ - Distinguishing between rights to see, and rights to participate
 
+### Protectors
 If the coordinators are protecting a common good, design for Vetocracy and visibility. The Defenders Advantage needs to be optimise for transparency. Everyone affected needs access *to see into* the decision-making apparatus. This is usually done with a combination of on-chain voting, public forums and anti-collusion incentives.
 
+### Creators
 If the coordinators are creating something new, then Defenders' Advantage goes to the doers.  This requires an Actiocracy where a team can form, capable and committed to the results, and with complete control over their own scope and communication. If they are held accountable to their results, then their autonomy supersedes full transparency.  (When they succeed, and create a common good, transparency and Vetocracy get introduced then to defend the assets they created.)
 
 This is usually done with subDAOs, squads or other lighter gates on joining collaboration, like multi-sig rights and private communication channels.  And when it comes to incentives, they're usually aligned to results over participation.
