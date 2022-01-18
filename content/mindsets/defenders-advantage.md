@@ -4,6 +4,8 @@ image: /img/wall.png
 iama: mindset
 ---
 
+# Defenders' Advantage
+
 In 2016, Vitalik Buterin, founder of Ethereum, shared [new modes for collaboration](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51), advice for what we now know as DAOs. 
 
 
