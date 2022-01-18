@@ -33,7 +33,7 @@ There's a lot going on here, so we'll start with understanding how Defenders' Ad
 
 
 ## The Internet is built on Defenders' Advantage
-The Internet itself formed from ARPANET, a military communication network that used [decentralisation](/mindsets/decentralisation) to create resilience against attack. If one router goes down, the messages just finds another path. So an attacker can't just unplug a few routers, they have to invest in unplugging a whole bunch of them to have any effect at all. The Defenders have a big advantage. 
+The Internet itself formed from ARPANET, a military communication network that used [decentralisation](/mindsets/decentralisation) to create resilience against attack. If one router goes down, the messages just finds another path. So an attacker can't just blow up a few routers, they have to invest in destroying a whole bunch of them to have any effect at all. The Defenders have a big advantage. 
 
 ### Denial Of Service
 When websites like Facebook go down, that's because they chose centralised infrastructure instead of decentralised.  
