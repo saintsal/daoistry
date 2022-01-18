@@ -13,7 +13,7 @@ It built heavily on the concept of Defenders' Advantage, well-known in Game Theo
 
 While investigating ways to make Proof Of Stake coordination work on a technical level, he realised that Defenders' Advantage also needed to be applied to the human side, to defend the off-chain coordination of the people taking care of the network.
 
-## Applying the cryptographic principles to DAO communication 
+## DAOs are genetic descendants of cryptography
 
 > Cryptography is truly special in the 21st century because cryptography is one of the very few fields where adversarial conflict continues to heavily favor the defender. 
 
