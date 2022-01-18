@@ -9,7 +9,7 @@ In 2016, Vitalik Buterin, founder of Ethereum, shared [new modes for collaborati
 
 It built heavily on the concept of Defenders' Advantage, well-known in Game Theory and Cryptography, 
 
-While investigating ways to make Proof Of Stake coordination work on a technical level, he realised that Defenders' Advantage also needed to be applied to the human side, to decentralised coordination and communication of the people taking care of the network.
+While investigating ways to make Proof Of Stake coordination work on a technical level, he realised that Defenders' Advantage also needed to be applied to the human side, to defend the off-chain coordination of the people taking care of the network.
 
 ## Applying the cryptographic principles to DAO communication 
 
@@ -31,7 +31,7 @@ There's a lot going on here, so we'll start with understanding how Defenders' Ad
 
 
 ## The Internet itself is built on Defenders' Advantage
-The Internet itself formed from ARPANET, a military communication network that used [decentralision](/mindsets/decentralisation) to create resilience against attack. If one router goes down, the messages just finds another path. So an attacker can't just unplug something, they have to invest in unplugging a whole bunch of things to have any effect at all. The Defenders have a big advantage. 
+The Internet itself formed from ARPANET, a military communication network that used [decentralisation](/mindsets/decentralisation) to create resilience against attack. If one router goes down, the messages just finds another path. So an attacker can't just unplug something, they have to invest in unplugging a whole bunch of things to have any effect at all. The Defenders have a big advantage. 
 
 ### Denial Of Service
 When websites like Facebook go down, that's because they chose centralised infrastructure instead of decentralised.  
@@ -77,7 +77,7 @@ New joiners look for their place, somewhere they can be useful, get paid, maybe 
 
 Whales have their own agendas too. Some whales participate in private groups that coordinate price manipulation. This isn't always through direct collusion either.  It happens more often and more more naturally by signalling to each other through their behaviours.  Whales tend to buy in and sell of in groups, and signal intention to each other through their participation (or lack of participation) in governance. So here, even more transparency doesn't help, since they can still collude implicitly and in the open.
 
-We can't limit ourselves to thinking of adversaries as trying to fud and short the token for pure financial gain. We have to consider people trying to help as well.
+We can't limit ourselves to thinking of adversaries as trying to FUD or play the token for pure financial gain. We have to consider people trying to help as well.
 
 Bad actions often come from people motivated to collaborate, but based on their various other agendas, they may slow down or act against the more common needs of the group.  
 
@@ -93,7 +93,7 @@ The reality with blockchains and DAOs is that to be open, we have to accept that
 
 We've seen that [centralisation is a natural tendency](/mindsets/decentralisation), and it naturally leads to collusion, with or without transparent communication channels. 
 
-More transparency is usually the kneejerk response, but that actually favours the centralised cartels, since they can see what's going on while still coordinating in private or through signalling.
+More transparency is usually the knee-jerk response, but that actually favours the centralised cartels, since they can see what's going on while still coordinating in private or through signalling.
 
 So pure transparency, especially when combined with Sender's Advantage, favours the attackers.  
 
@@ -118,7 +118,7 @@ The right balance between openness and defense is usually a matter of:
 
 If the coordinators are protecting a common good, design for Vetocracy and visibility. The Defenders Advantage needs to be done optimising for transparency. Everyone affected needs access to see the decision-making apparatus. This is usually done with a combination of on-chain voting, public forums and anti-collusion incentives.
 
-If the coordinators are creating something new, then Defenders' Advantage goes to the doers.  This requires an Actiocracy where a team can form, capable and committed to the results, and with complete control over their own scope and communication. If they are held accountable to their results, then their autonomy supersedes full transparency.  (When they succeed, and create a common good, transparency and vetocracy get introduced then to defend the assets they created.)
+If the coordinators are creating something new, then Defenders' Advantage goes to the doers.  This requires an Actiocracy where a team can form, capable and committed to the results, and with complete control over their own scope and communication. If they are held accountable to their results, then their autonomy supersedes full transparency.  (When they succeed, and create a common good, transparency and Vetocracy get introduced then to defend the assets they created.)
 
 This is usually done with subDAOs, squads or other lighter gates on joining collaboration, like multi-sig rights and private communication channels.  And when it comes to incentives, they're usually aligned to results over participation.
 
