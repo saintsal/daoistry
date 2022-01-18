@@ -45,6 +45,7 @@ The simplest and most common way is for a group to self select, and open a priva
 ## Defending autonomy and decentralisation
 
 Generally, these all tend to employ some version of the following:
+
 - group controlled communication channels, either view-only to the public, or completely private
 - safe spaces for private dialog
 - taking ownership of their own resources, and building their own resource pool
