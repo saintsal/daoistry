@@ -37,6 +37,36 @@
       </div>
     </div>
     
+    {{ if eq .Params.iama  "mindset"  }}
+      <div class="mindsets">
+        <article>
+          <div class="article-heading">
+
+          <span class="mindsets">Mindsets:</span> 
+          <span>How do blockchain's leaders see new opportunities for society?</span>
+          </div>
+        </article>
+        {{ range where .Site.AllPages "Params.iama" "mindset" }}
+          {{ partial "article-card.html" . }}
+        {{ end }}
+      </div>
+    {{ end }}
+    
+    {{ if eq .Params.iama  "practice"  }}
+      <div class="practices">
+        <article>
+          <div class="article-heading">
+            <span class="practices">Practices:</span> 
+            <span>Which DAO practices are decentralising coordination?</span>
+          </div>
+        </article>
+
+        {{ range where .Site.AllPages "Params.iama" "practice" }}
+          {{ partial "article-card.html" . }}
+        {{ end }}
+      </div>
+    {{ end }}
+
     {{ partial "footer.html" . }}
 
     <script src="/js/tmd.js"></script>

@@ -1,0 +1,20 @@
+          <article>
+            
+            <img class="article-image" src="{{ .Params.image }}">
+            
+            <div class="article-content">
+              <h1>
+                <a href="{{ .Permalink }}">
+                  {{ .Title }}
+                </a>
+              </h1>
+
+              <p>
+                {{ .Params.teaser }}
+              </p>
+
+              <p class="article-links">
+                <a href="{{ .Permalink }}">Check out the {{ .Params.iama }}</a>
+              </p>
+            </div>
+          </article>
