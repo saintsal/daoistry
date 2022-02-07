@@ -10,7 +10,7 @@ At a meta level, it's inspired by [Arthur Clarke's Profiles Of The Future](https
 
 For me, here and now, it's a by-product of my own research, which aims to find fun and useful experiments to deploy to help people coordinate better with blockchains.
 
-![](blockchain_future.png]
+![to get to a blockchain utopia from here, there will be no sleep](blockchain_future.png]
 
 So letting the big visionary brains set the direction, but keeping it real about what to focus on next.
 
