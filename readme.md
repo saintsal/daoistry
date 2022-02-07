@@ -1,13 +1,47 @@
-## Generative Artistry
+# Collaborate on DAOistry
 
-[Generative Artistry](https://generativeartistry.com) is a **work in progress** blog & tutorial website exploring generative art with self-coding examples. 
 
-### Tutorial Markdown
+## What is it for?
+DAOistry is a little research project into what really works and doesn't in DAOs, and blockchain-related communities in general.
 
-The version of tutorial markdown in this demo is super conceptual, and is currently being completely rewritten, so please take it with a grain of salt, and bare with me for a month or so. Or reach out if you want to help!
+While it attempts to be practical (and somewhat critical) it also considers the long-term visions of what is possible. From this perspective, it seeks to reveal the new paradigms blockchains enable, and draw a line to those from what works today.
 
-### Setup
-Generative Artistry runs on [Hugo](https://gohugo.io/). To set it up locally you will need to:
-1. `git clone git@github.com:tholman/generative-artistry.git`
-1. `brew install hugo` ([or install via other means](https://gohugo.io/getting-started/installing/))
-1. `hugo server`
+At a meta level, it's inspired by [Arthur Clarke's Profiles Of The Future](https://archive.org/details/profilesoffuture00clar) - essays which explored the ultimate perimeters of what various scientific domains could discover.
+
+For me, here and now, it's a by-product of my own research, which aims to find fun and useful experiments to deploy to help people coordinate better with blockchains.
+
+![](blockchain_future.png]
+
+So letting the big visionary brains set the direction, but keeping it real about what to focus on next.
+
+## Contribute!
+With that in mind, I'd love to collaborate.  
+
+You can see a lot is still pretty "drafty." So even little edits and fixes are welcome!
+
+And it's be great if you have bigger ideas too. 
+
+Here are some topics I plan to cover:
+- [ ] Emergent structures
+- [ ] Schelling points
+- [ ] Nash equilibria in committee decision-making
+- [ ] Implicit and natural collusion
+- [ ] Silos and departments
+- [ ] Meme power
+- [ ] Vibes
+- [ ] More meeting formats like retrospectives, kick-offs
+- [ ] Ways of preserving and developing organisational knowledge
+- [ ] Information radiators
+- [ ] Clearly defining different consensus mechanisms
+- [ ] Cooperation games
+- [ ] Crypto as a massive set of parallel experiments "here we test in production ser" 
+- [ ] Composability (for work coordination primitives)
+- [ ] Compensation mechanisms
+
+If you're looking into these or anything else that might be good here, let's talk!
+
+Please [email me here](https://salimvirani.com/about).
+
+Sal
+
+
