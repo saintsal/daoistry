@@ -8,7 +8,7 @@ While it attempts to be practical (and somewhat critical) it also considers the 
 
 At a meta level, it's inspired by [Arthur Clarke's Profiles Of The Future](https://archive.org/details/profilesoffuture00clar) - essays which explored the ultimate perimeters of what various scientific domains could discover.
 
-For me, here and now, it's a by-product of my own research, which aims to find fun and useful experiments to deploy to help people coordinate better with blockchains.
+For me, here and now, it's a by-product of my own research, which aims to find fun and useful experiments to deploy to help people coordinate better with blockchains. (I'll be launching most of those from [🍵 Cuppa](https://cuppa.cc))
 
 ![blockchain utopia later, no sleep now](blockchain_future.png)
 
