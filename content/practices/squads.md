@@ -12,6 +12,8 @@ Mindsets applied:
 
 - [Fractalise](/mindsets/fractals/)
 
+- [Defenders' Advantage](/mindsets/defenders-advantage/)
+
 # Small squads self-direct easily. 
 
 MakerDAO, Yearn, Synthetix have all seen some form of squads or working groups emerge. And a number of DAOs are now generating SubDAOs to manage specific resources. 
@@ -27,9 +29,10 @@ So the DAOs that get things done are letting go of centralised power, allowing t
 ## Some common practices
 
 - Squads form around projects (with one-time end results) or factories (to produce a similar output repeatedly) 
+- They set their own goals and [communicate them outwards](/practices/check-ins), taking responsibility for seeing projects through to results
 - Squads are a maximum of 4-5 people to stay agile. 
 - Squads share responsibilities with each other practically - each decision *is not* put to consensus.
 - Squads tend to have dedicated members, they are not permissionless to join though outsiders may help.
-- Sqauds are functionally complete - their memmbership have the skills and experience to get the job done.
+- Squads are functionally complete - their membership have the skills and experience to get the job done.
 - Squad members pick their own tools. The organisation doesn’t force tools on them, but also nobody outside of the squad is expected to use the tools the squad uses.
 - Each squad member holds themselves accountable. The best thing about no manager is also the worst – there’s nobody there the chase you.
