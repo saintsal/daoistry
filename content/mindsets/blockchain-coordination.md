@@ -45,7 +45,7 @@ And we can see a common mistake when people buy and sell tokens, thinking they'r
 ## Coordination is value
 What tokens and stocks have in common is:
 
-1. Tokens and companies are both economic coordination systems. They both have value more than the capital and labour they contain, because they coordinate those.
+1. Tokens and companies are both economic coordination systems. They both have values different to the capital and labour they contain, because they coordinate those.
 2. Token and company stock prices are both based on what the market dictates, and that price goes up or down depending on how much potential the market sees.
 
 In the case of stocks, the price of the stock goes up or down based on how much potential that owners and potential owners see in that company. In the case of tokens, the price fluctuates according to how much potential its participants  or potential participants see in the coordination system it provides them.
