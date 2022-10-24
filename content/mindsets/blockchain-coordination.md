@@ -34,7 +34,7 @@ We wouldn't get far trying to understand planes if we kept thinking of them in t
 
 ## Token economies are not based on the trade of goods or services
 
-With token economies, we still have an economic system, but it isn't a corporate one or even a commercial one.  Our ideas of shares, ownership,control, employment, ofexchanging labour for money or even investing capital for personal gain -- they don't quite work here.  Something else is going on.
+With token economies, we still have an economic system, but it isn't a corporate one or even a commercial one.  Our ideas of shares, ownership,control, employment, of exchanging labour for money, or even investing capital for personal gain -- they don't quite work here.  Something else is going on.
 
 What tokens enable isn't just a tradable currency or cloud computing. They attract a group of people around a common goal, and align them with a hard-coded incentive system.  When you buy a token, you trade capital for participation in that token community according to how it's programmed. So yes, it's a tradable currency and code running in the cloud, but it's something quite different from both.
 
