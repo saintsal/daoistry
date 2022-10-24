@@ -74,7 +74,7 @@ So something as simple buying and selling a token becomes like a light switch.  
 
 With tokenized communities, people align to a common goal, a North Star, without being an owner, employee or shareholder. It's an economic alignment around a new kind of virtual object that is neither company or app.
 
-We can look at tokens as *participation rules laid out as economic incentives*, and realise we may not even need human managers to coordinate us.  Coordination through well-designed token economies reduce the need for hierarchical leadership and middle management because the incentives move people towards [self-coordination](/mindsets/fractals) -- ideally rewarding the result-getters.
+We can look at tokens as *participation rules laid out as economic incentives*, and realise we may not even need human managers to coordinate us.  Coordination through well-designed token economies reduce the need for hierarchical leadership and middle management because the incentives move people towards [self-coordination](/mindsets/fractals) rather than managerial coordination.
 
 Attracting people around a common goal isn't new, but coordinating them with a tradable *and* functional token is very new.  And that's worth something because that coordination mechanism enables us to achieve goals that matter to us, especially goals that the old forms of coordination (like companies, NGOs and governments) are not good at. We are all aware of the downsides of corporate behaviour, poor NGO success rates, and government incompetence. Well, blockchains and DAOS add a new tool to this toolbelt.
 
