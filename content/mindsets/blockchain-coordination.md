@@ -48,23 +48,23 @@ What tokens and stocks have in common is:
 1. Tokens and companies are both economic coordination systems. They both have value more than the capital and labour they contain, because they coordinate those.
 2. Token and company stock prices are both based on what the market dictates, and that price goes up or down depending on how much potential the market sees.
 
-In the case of stocks, the price of the stock goes up or down based on how much potential that stock traders see in that company. In the case of tokens, the price fluctuates according to how much potential its participants see in the coordination system it provides them.
+In the case of stocks, the price of the stock goes up or down based on how much potential that owners and potential owners see in that company. In the case of tokens, the price fluctuates according to how much potential its participants  or potential participants see in the coordination system it provides them.
 
 The value in a token is largely connected to the community it attracts, normally around a common goal.  So how does a token claim a hold on the value of this community?
 
 ## Affordances
 
-When we see a handle on something, we know its liftable. When we see something small, we also know it's liftable. When we see a switch on a wall, we know that probably controls the lights. 
+When we see a handle on something, we assume its liftable. When we see something small, we think it's light enough to lift. When we see a switch on a wall, we know that probably controls the lights. 
 
 In design and cognitive science terms, when a property of an object (on environment) tells us we can manipulate it, that's called an "affordance".  
 
 In the case of digital objects, the app allows us to manipulate something economic, so it's an "economic affordance."
 
-A light switch is a physical object, and an app in a phone is a virtual object.  And yet, we learn that these little boxes on our walls or on our phones have a deeper reach.   
+A light switch is a physical object, and an app in a phone is a virtual object.  And yet, we learn that these little boxes on our walls or on our phones give us deeper reach.   
 
-In the same way we know a switch on the wall controls the movement of electricity (effort) through wires (resources) to create light, we know that a ride-sharing app will mobilise a driver (effort) and car (resources) to come pick us up.  
+In the same way we know light switch controls the movement of electricity (effort) through wires and bulbs (resources), we know that a ride-sharing app will mobilise a driver (effort) and car (resource) to come pick us up.  
 
-Digital objects, as economic affordances, only exist when enough humans agree to interact with them.  Back to the ride-sharing app; if the drivers didn't agree to participate and your friends didn't think of the app when they wanted to go somewhere, that app wouldn't do anything. So it wouldn't be an object in anyone's mind.  
+Digital objects, as economic affordances, only exist when enough humans agree to interact with them.  If the drivers didn't agree to participate and your friends didn't think of the app when they wanted to go somewhere, that app wouldn't do anything. So it wouldn't be an object in anyone's mind.  
 
 Once we all start to agree on how this thing works, it becomes a new type of object, and "affords" us control of effort and resources.
 
