@@ -82,7 +82,7 @@ We'll leave you with Lotti herself, explaining why we value these systems, even 
 
 > Thus, while cryptotokens’ underlying value at the time of issuance and until realization remains unbounded – structurally, it cannot be known in advance – by definition each token is paradoxically fully backed by its functionality, or, in other words, by what it potentially affords.
 
-Each token has value because it's backed by a coded ruleset that each of it's holders has agreed to. So in the same way a publicly-traded company is valued by it's future potention, the value of the token is the valued on the potental coordination it can deliver.
+Each token has value because it's backed by a coded ruleset that each of it's holders has agreed to. So in the same way a publicly-traded company is valued by it's future potential, the value of the token is the valued on the potential coordination it can deliver.
 
 # Practices
 
